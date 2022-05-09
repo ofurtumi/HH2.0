@@ -1,0 +1,260 @@
+{
+  "slices": {
+    "components": {
+      "mynd": {
+        "library": "slices",
+        "id": "mynd",
+        "name": "Mynd",
+        "description": "Mynd",
+        "model": {
+          "id": "mynd",
+          "type": "SharedSlice",
+          "name": "Mynd",
+          "description": "Mynd",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Mynd",
+              "primary": {
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "myndMedTexta",
+              "name": "mynd með texta",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Mynd",
+              "primary": {
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  }
+                },
+                "imageText": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Image Text",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,em,strong,heading4"
+                  }
+                },
+                "position": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Staðsetning myndar",
+                    "placeholder_false": "vinstri",
+                    "placeholder_true": "hægri",
+                    "default_value": false
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "mynd",
+            "items": [],
+            "primary": {
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=900&h=500&fit=crop"
+              }
+            }
+          },
+          "myndMedTexta": {
+            "variation": "myndMedTexta",
+            "name": "mynd með texta",
+            "slice_type": "mynd",
+            "items": [],
+            "primary": {
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
+              },
+              "imageText": [
+                {
+                  "type": "paragraph",
+                  "text": "Lorem non enim dolor sint excepteur. Sit sunt cillum et labore ipsum ad cupidatat aute nisi. Quis nisi non dolore ipsum sunt ex excepteur ipsum enim ipsum proident excepteur qui fugiat fugiat.",
+                  "spans": []
+                }
+              ],
+              "position": true
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\default\\preview.png",
+            "width": 800,
+            "height": 73
+          },
+          "myndMedTexta": {
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTexta\\preview.png",
+            "width": 800,
+            "height": 73
+          }
+        }
+      },
+      "texti": {
+        "library": "slices",
+        "id": "texti",
+        "name": "Texti",
+        "description": "Texti",
+        "model": {
+          "id": "texti",
+          "type": "SharedSlice",
+          "name": "Texti",
+          "description": "Texti",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Texti",
+              "primary": {
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,em,strong,heading2,heading3"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "texti",
+            "items": [],
+            "primary": {
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Esse commodo minim voluptate Lorem pariatur eu esse excepteur. Est cillum ipsum eu ut.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Texti\\default\\preview.png",
+            "width": 800,
+            "height": 94
+          }
+        }
+      },
+      "titill": {
+        "library": "slices",
+        "id": "titill",
+        "name": "Titill",
+        "description": "Titill",
+        "model": {
+          "id": "titill",
+          "type": "SharedSlice",
+          "name": "Titill",
+          "description": "Titill",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Titill",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Title",
+                    "placeholder": "Hér byrjar allt klabbið...",
+                    "allowTargetBlank": true,
+                    "single": "heading1"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "titill",
+            "items": [],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Synergize seamless models",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Titill\\default\\preview.png",
+            "width": 800,
+            "height": 73
+          }
+        }
+      }
+    }
+  }
+}

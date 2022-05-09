@@ -1,0 +1,29 @@
+{
+  "id": "6745d928-d952-4c0f-8602-6cf6ebab7a0c",
+  "uid": "quo-facere-quia",
+  "type": "event",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Orchestrate out-of-the-box convergence",
+        "spans": []
+      }
+    ],
+    "link": {
+      "link_type": "Web",
+      "url": "http://twitter.com"
+    },
+    "dates": [
+      {
+        "date": "2012-02-25T14:27:25.380Z"
+      },
+      {
+        "date": "2017-05-22T21:08:57.134Z"
+      },
+      {
+        "date": "2012-03-11T19:12:12.195Z"
+      }
+    ]
+  }
+}

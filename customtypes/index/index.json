@@ -1,0 +1,9 @@
+{
+  "id": "index",
+  "label": "Heimasíða",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {}
+  }
+}

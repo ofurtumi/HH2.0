@@ -1,0 +1,64 @@
+{
+  "id": "mynd",
+  "type": "SharedSlice",
+  "name": "Mynd",
+  "description": "Mynd",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Mynd",
+      "primary": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "myndMedTexta",
+      "name": "mynd með texta",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Mynd",
+      "primary": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "imageText": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Image Text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,em,strong,heading4"
+          }
+        },
+        "position": {
+          "type": "Boolean",
+          "config": {
+            "label": "Staðsetning myndar",
+            "placeholder_false": "vinstri",
+            "placeholder_true": "hægri",
+            "default_value": false
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}
