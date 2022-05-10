@@ -29,6 +29,23 @@
           "select": null
         }
       },
+      "image": {
+        "type": "Image",
+        "config": {
+          "label": "Mynd",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "text": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Texti",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,strong,em,heading2"
+        }
+      },
       "dates": {
         "type": "Group",
         "config": {

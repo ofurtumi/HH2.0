@@ -1,28 +1,53 @@
 {
-  "id": "6745d928-d952-4c0f-8602-6cf6ebab7a0c",
-  "uid": "quo-facere-quia",
+  "id": "2fa040ee-a645-4150-8067-31a3da31fe96",
+  "uid": "porro-est-quas",
   "type": "event",
   "data": {
     "title": [
       {
         "type": "heading1",
-        "text": "Orchestrate out-of-the-box convergence",
+        "text": "Maximize viral interfaces",
         "spans": []
       }
     ],
     "link": {
       "link_type": "Web",
-      "url": "http://twitter.com"
+      "url": "https://slicemachine.dev"
     },
+    "image": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613?w=900&h=500&fit=crop"
+    },
+    "text": [
+      {
+        "type": "paragraph",
+        "text": "Culpa elit ex laborum dolor voluptate consectetur magna officia. Sunt nulla est laboris consectetur ut minim.",
+        "spans": []
+      }
+    ],
     "dates": [
       {
-        "date": "2012-02-25T14:27:25.380Z"
+        "date": "2014-06-14T04:23:35.562Z"
       },
       {
-        "date": "2017-05-22T21:08:57.134Z"
+        "date": "2015-03-18T15:14:52.435Z"
       },
       {
-        "date": "2012-03-11T19:12:12.195Z"
+        "date": "2021-06-22T13:19:15.824Z"
+      },
+      {
+        "date": "2019-07-04T03:59:29.907Z"
+      },
+      {
+        "date": "2018-07-31T14:32:19.872Z"
+      },
+      {
+        "date": "2015-05-22T13:14:49.969Z"
       }
     ]
   }
