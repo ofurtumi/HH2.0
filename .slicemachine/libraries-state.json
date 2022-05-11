@@ -120,12 +120,12 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\default\\preview.png",
+            "path": "/home/tumi/Documents/HH2.0/.slicemachine/assets/slices/Mynd/default/preview.png",
             "width": 800,
             "height": 73
           },
           "myndMedTexta": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTexta\\preview.png",
+            "path": "/home/tumi/Documents/HH2.0/.slicemachine/assets/slices/Mynd/myndMedTexta/preview.png",
             "width": 800,
             "height": 73
           }
@@ -187,7 +187,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Texti\\default\\preview.png",
+            "path": "/home/tumi/Documents/HH2.0/.slicemachine/assets/slices/Texti/default/preview.png",
             "width": 800,
             "height": 94
           }
@@ -249,7 +249,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Titill\\default\\preview.png",
+            "path": "/home/tumi/Documents/HH2.0/.slicemachine/assets/slices/Titill/default/preview.png",
             "width": 800,
             "height": 73
           }
