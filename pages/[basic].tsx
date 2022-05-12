@@ -1,24 +1,12 @@
 import { GetStaticPaths } from 'next';
 import { createClient } from '../prismicio';
-import Titill from '../slices/Titill/index.js';
-import Texti from '../slices/Texti/index.js';
-import Mynd from '../slices/Mynd/index.js';
+import { SliceZone } from '@prismicio/react'
+import { components } from '../slices'
 
 const Basic = ({ data }: { data: any }) => {
 	return (
 		<div>
-			{/* {console.log('data --> ', data)} */}
-			{data.data.slices.map((slice: any, i: number) => {
-                console.log('slice   --> ', slice )
-				switch (slice.slice_type) {
-					case 'titill':
-						return <Titill slice={slice} />;
-					case 'texti':
-						return <Texti slice={slice} />;
-					case 'mynd':
-						return <Mynd slice={slice} />;
-				}
-			})}
+			<SliceZone slices={data.data.slices} components={components} />
 		</div>
 	);
 };
@@ -33,7 +21,6 @@ export async function getStaticProps({
 	const client = createClient({ previewData });
 	const data = await client.getByUID('basic', params.basic);
 
-	console.log('data --> ', data);
 	return { props: { data } };
 }
 

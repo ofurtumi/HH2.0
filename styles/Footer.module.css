@@ -1,0 +1,40 @@
+.prison {
+    padding-top: 1em;
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    justify-items: center;    
+    background-color: #363636;
+    color: #fff;
+}
+
+.prison img {
+    cursor: pointer;
+}
+
+.logo {
+    filter: invert(1);
+    mix-blend-mode:lighten;
+}
+
+.prison p {
+    text-align: center;
+}
+
+.prison ul {
+    padding-inline-start: 0;
+    list-style: none;
+    display: flex;
+    gap: 2em;
+}
+
+.prison ul img {
+    filter: invert(1);
+    transition: 0.2s;
+}
+
+.prison ul img:hover,
+.prison ul img:active,
+.prison ul img:focus-visible {
+    filter: invert(0.75);
+}

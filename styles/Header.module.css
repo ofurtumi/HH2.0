@@ -1,0 +1,58 @@
+.prison {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dropdown button {
+    border: 0;
+    font-size: 2em;
+    background-color: white;
+    cursor: pointer;
+    padding: 0;
+    transition: 0.2s;
+}
+
+.dropdown button:hover,
+.dropdown button:active,
+.dropdown button:focus-visible {
+color: #555;
+}
+
+.dropdown ul {
+    width: calc(100vw - 4em);
+    display: none;
+    background-color: white;
+    position: absolute;
+    padding: 1em;
+    border: 5px solid black;
+    border-radius: 15px;
+    top: 0;
+    right: 2em;
+    list-style: none;
+    
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.dropdown button:focus + ul, .dropdown ul:hover{
+    display: flex;
+}
+
+.prison li {
+    text-decoration: underline white;
+    transition: 0.2s;
+}
+
+.prison li:hover,
+.prison li:active,
+.prison li:focus-visible {
+    text-decoration: underline black;
+}
