@@ -5,9 +5,9 @@ import { components } from '../slices'
 
 const Basic = ({ data }: { data: any }) => {
 	return (
-		<div>
+		<main>
 			<SliceZone slices={data.data.slices} components={components} />
-		</div>
+		</main>
 	);
 };
 
@@ -18,12 +18,13 @@ export async function getStaticProps({
 	params: any;
 	previewData: any;
 }) {
-	const client = createClient({ previewData });
+	const client = createClient({ previewData }); // sama functionality og í öllum hinum
 	const data = await client.getByUID('basic', params.basic);
 
 	return { props: { data } };
 }
 
+// * fallback fyrir dýnamískar síður
 export const getStaticPaths: GetStaticPaths<{ slug: string }> = async () => {
 	return {
 		paths: [], //indicates that no page needs be created at build time

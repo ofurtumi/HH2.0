@@ -2,7 +2,9 @@
     padding-top: 1em;
     display: grid;
     grid-template-columns: 1fr;
-    width: 100%;
+    width: 100vw;
+    position: absolute;
+    left: 0;
     justify-items: center;    
     background-color: #363636;
     color: #fff;
@@ -19,6 +21,7 @@
 
 .prison p {
     text-align: center;
+    margin: 1.5em;
 }
 
 .prison ul {

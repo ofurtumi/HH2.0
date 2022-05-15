@@ -11,22 +11,22 @@ const Header = () => {
           <button>=</button>
           <ul>
             <li>
-              <a href="./veitingahus">Veitingahús</a>
+              <a href="/veitingahus">Veitingahús</a>
             </li>
             <li>
-              <a href="./vidburdir">Viðburðir</a>
+              <a href="/vidburdir">Viðburðir</a>
             </li>
             <li>
-              <a href="./salir">Salir</a>
+              <a href="/salir">Salir</a>
             </li>
             <li>
-              <a href="./hannesarholt">Hannesarholt</a>
+              <a href="/hannesarholt">Hannesarholt</a>
             </li>
             <li>
-              <a href="./heimili">Heimili Heimsmarkmiðana</a>
+              <a href="/heimili">Heimili Heimsmarkmiðana</a>
             </li>
             <li>
-              <a href="./frettir">Fréttir</a>
+              <a href="/frettir">Fréttir</a>
             </li>
           </ul>
         </div>

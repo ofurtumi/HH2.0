@@ -17,7 +17,16 @@
             "label": "Description",
             "placeholder": "A nice description of your feature",
             "allowTargetBlank": true,
-            "single": "paragraph,em,strong,heading2,heading3"
+            "multi": "paragraph,heading2,heading3,strong,em"
+          }
+        },
+        "centered": {
+          "type": "Boolean",
+          "config": {
+            "label": "Midjad",
+            "placeholder_false": "nei",
+            "placeholder_true": "já",
+            "default_value": false
           }
         }
       },

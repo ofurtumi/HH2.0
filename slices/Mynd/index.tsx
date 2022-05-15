@@ -1,31 +1,39 @@
-import { PrismicRichText } from "@prismicio/react";
-import React from "react";
+import { PrismicRichText } from '@prismicio/react';
+import styles from '../../styles/Slices.module.css';
 
 const Mynd = ({ slice }: { slice: any }) => {
-  if (slice.slice_type === "default") {
-    return (
-      <section>
-        <img
-          src={slice.primary.image.url}
-          alt={
-            slice.primary.image.alt ?? "einhver gleymdi að setja alt texta :/"
-          }
-        />
-      </section>
-    );
-  } else
-    return (
-      <section>
-        <img
-          src={slice.primary.image.url}
-          alt={
-            slice.primary.image.alt ?? "einhver gleymdi að setja alt texta :/"
-          }
-        />
-        <PrismicRichText field={slice.primary.imageText} />
-        {/* <p>{slice.primary.imageText}</p> */}
-      </section>
-    );
+	if (slice.variation === 'default') {
+		console.log('default --> ');
+		return (
+			<section className={styles.imgVilla}>
+				<img
+					src={slice.primary.image.url}
+					alt={
+						slice.primary.image.alt ??
+						'einhver gleymdi að setja alt texta :/'
+					}
+				/>
+			</section>
+		);
+	} // * case ef mynd á að hafa texta við hliðiná sér
+	else
+		return (
+			<section className={styles.imgPrison}>
+				{slice.primary.position ? (
+					<PrismicRichText field={slice.primary.imageText} />
+				) : null}
+				<img
+					src={slice.primary.image.url}
+					alt={
+						slice.primary.image.alt ??
+						'einhver gleymdi að setja alt texta :/'
+					}
+				/>
+				{slice.primary.position ? null : (
+					<PrismicRichText field={slice.primary.imageText} />
+				)}
+			</section>
+		);
 };
 
 export default Mynd;
