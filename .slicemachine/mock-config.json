@@ -77,6 +77,14 @@
         }
       }
     },
-    "basic": {}
+    "basic": {},
+    "news": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    }
   }
 }
