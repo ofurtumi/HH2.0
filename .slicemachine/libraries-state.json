@@ -120,12 +120,12 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/home/tumi/Documents/HH2.0/.slicemachine/assets/slices/Mynd/default/preview.png",
+            "path": "/Users/hannesarholt/Desktop/HH2.0/.slicemachine/assets/slices/Mynd/default/preview.png",
             "width": 800,
             "height": 296
           },
           "myndMedTexta": {
-            "path": "/home/tumi/Documents/HH2.0/.slicemachine/assets/slices/Mynd/myndMedTexta/preview.png",
+            "path": "/Users/hannesarholt/Desktop/HH2.0/.slicemachine/assets/slices/Mynd/myndMedTexta/preview.png",
             "width": 800,
             "height": 296
           }
@@ -195,7 +195,13 @@
           "fileName": "index",
           "extension": "tsx"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "/Users/hannesarholt/Desktop/HH2.0/.slicemachine/assets/slices/Texti/default/preview.png",
+            "width": 800,
+            "height": 68
+          }
+        }
       },
       "titill": {
         "library": "slices",
@@ -253,7 +259,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/home/tumi/Documents/HH2.0/.slicemachine/assets/slices/Titill/default/preview.png",
+            "path": "/Users/hannesarholt/Desktop/HH2.0/.slicemachine/assets/slices/Titill/default/preview.png",
             "width": 800,
             "height": 68
           }
