@@ -19,6 +19,15 @@
             "allowTargetBlank": true,
             "single": "heading1"
           }
+        },
+        "centered": {
+          "type": "Boolean",
+          "config": {
+            "label": "Midjad",
+            "placeholder_false": "false",
+            "placeholder_true": "true",
+            "default_value": false
+          }
         }
       },
       "items": {},

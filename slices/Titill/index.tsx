@@ -3,7 +3,7 @@ import styles from "../../styles/Slices.module.css"
 
 const Titill = ({ slice }: { slice: any }) => {
   return (
-    <section className={styles.titlePrison}>
+    <section className={styles.titlePrison} style={{textAlign: slice.primary.centered ? 'center' : 'start'}}>
       <PrismicRichText field={slice.primary.title} />
     </section>
   );

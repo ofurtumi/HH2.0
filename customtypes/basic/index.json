@@ -25,6 +25,9 @@
             },
             "titill": {
               "type": "SharedSlice"
+            },
+            "margar_myndir": {
+              "type": "SharedSlice"
             }
           }
         }

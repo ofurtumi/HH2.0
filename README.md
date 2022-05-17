@@ -1,34 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# HH2.0
 
-## Getting Started
+heimasíða fyrir hannesarholt skrifuð aftur og, vonandi, beturumbætt með **nextjs**, **react** og **prismic**
 
-First, run the development server:
+## plan
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+búa til grunn sem hægt er að nota til að endurgera alla virkni og allt look af gömlu síðunni  
+skipting yfir í nýju síðuna á að verða tiltölulega seamless
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## stóru hlutirnir
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+**viðburðir**
+> að geta auðveldlega bætt við og sýnt viðburði á síðunni er stærsta hlutverk hennar  
+> það er útfært með prismic headless CMS og búinn verður til account til að deila á milli fólks
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+**fréttir**
+> fréttirnar eru notaðar minna en viðburðirnir en eru þó stór partur af síðunni og fá mjög svipaða meðferð
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+**matseðill**
+> það verður að vera hægt að skoða matseðil á ehv góðann máta  
+> til að byrja með má vera bara pdf til að einfalda en það væri gott að geta flokkað og búið til á prismic í staðinn
 
-## Learn More
+**dependency súpa**
+> ég mun gera allt í krafti mínum til að koma í veg fyrir að upp komi einhverskonar dependency súpa
 
-To learn more about Next.js, take a look at the following resources:
+## todo:
+### header
+- [ ] dropdown fyrir nestaða lista á báðum skölum
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### gögn
+*byrja að flytja yfir alvöru gögn af gömlu síðunni til að sjá hvort hún passi og hverju þarf að bæta við*
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[**veitingahús**](pages%5Cveitingahus)
+- [x] yfirlit 
+- [x] matseðill
+  - [x] brunch
+  - [x] hádegisseðill
+  - [x] veislumatur **ATH: hér þyrfti (þegar það er tilbúið) að nota margra mynda slice**
+- [x] matarstefna
+- [x] gjafabréf
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**salir** 
+- [ ] yfirlit
+- [ ] hljóðberg
+- [ ] rauða herbergið
+- [ ] hvíta herbergið
+- [ ] arinstofa
+- [ ] baðstofuloftið
+- [ ] veitingastofur
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+**heimili heimsmarkmiðana** 
+- [ ] yfirlit
+- [ ] heimsmarkmiðin 17
+- [ ] hvað getur þú gert 
+- [ ] kennsla
+- [ ] upplýsingar
+- [ ] tillögur
+
+
+**hannesarholt** 
+- [ ] hannes hafstein
+  - [ ] önnur heimili
+  - [ ] ljóðið
+  - [ ] heimildarmynd
+- [ ] sögulegur fróðleikur
+  - [ ] 100 ára saga (port)
+  - [ ] 100 ára afmæli
+  - [ ] áfangar í sögu reykjavíkur
+  - [ ] reykjavík 1926
+  - [ ] þingholtin
+  - [ ] ýmis fróðleikur
+
+
+**fréttir** 
+- [ ] yfirlit
+- [ ] einstakar fréttir 
+**viðburðir** 
+- [ ] yfirlit
+- [ ] yfirlit dagatal ?
+- [x] einstakir viðburðir
+
+
+### slices, types og form
+- [ ] forsíðuformið
+- [ ] linked / embedded slice
+- [ ] myndbandaslice
+- [x] margar myndir slice **ATH: það er "komið" má kíkja betur á seinna**
+
+---
+
+## grófara todo: 
+- [ ] fréttasíður
+  - [ ] yfirlit
+  - [ ] einstakar fréttir
+- [ ] viðburðarsíður
+  - [ ] yfirlit
+  - [x] einstakir viðburðir

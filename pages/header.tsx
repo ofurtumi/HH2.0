@@ -1,32 +1,46 @@
+import Link from "next/link";
 import styles from "../styles/Header.module.css";
+import Image from "next/image";
 
 const Header = () => {
   return (
     <header>
       <nav className={styles.prison}>
-        <a href="/">
-          <img src="/imgs/nav_logo.png" />
-        </a>
+        <Link passHref href="/">
+          <img src="/imgs/nav_logo.png" alt="Hannesarholt" />
+        </Link>
         <div className={styles.dropdown}>
           <button>=</button>
           <ul>
             <li>
-              <a href="/veitingahus">Veitingahús</a>
+              <Link passHref href="/veitingahus">
+                Veitingahús
+              </Link>
             </li>
             <li>
-              <a href="/vidburdir">Viðburðir</a>
+              <Link passHref href="/vidburdir">
+                Viðburðir
+              </Link>
             </li>
             <li>
-              <a href="/salir">Salir</a>
+              <Link passHref href="/salir">
+                Salir
+              </Link>
             </li>
             <li>
-              <a href="/hannesarholt">Hannesarholt</a>
+              <Link passHref href="/hannesarholt">
+                Hannesarholt
+              </Link>
             </li>
             <li>
-              <a href="/heimili">Heimili Heimsmarkmiðana</a>
+              <Link passHref href="/heimili">
+                Heimili Heimsmarkmiðana
+              </Link>
             </li>
             <li>
-              <a href="/frettir">Fréttir</a>
+              <Link passHref href="/frettir">
+                Fréttir
+              </Link>
             </li>
           </ul>
         </div>

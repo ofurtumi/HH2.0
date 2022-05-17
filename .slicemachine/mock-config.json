@@ -58,7 +58,13 @@
         "items": {}
       }
     },
-    "Vidburdir": {}
+    "Vidburdir": {},
+    "MargarMyndir": {
+      "default": {
+        "primary": {},
+        "items": {}
+      }
+    }
   },
   "_cts": {
     "index": {},

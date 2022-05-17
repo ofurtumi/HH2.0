@@ -1,0 +1,9 @@
+import MyComponent from '../../../../slices/MargarMyndir';
+
+export default {
+  title: 'slices/MargarMyndir'
+}
+
+
+export const _Default = () => <MyComponent slice={{"variation":"default","name":"Default","slice_type":"margar_myndir","items":[{"image":{"dimensions":{"width":400,"height":300},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=400&h=300&fit=crop"}},{"image":{"dimensions":{"width":400,"height":300},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=400&h=300&fit=crop"}},{"image":{"dimensions":{"width":400,"height":300},"alt":"Placeholder image","copyright":null,"url":"https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=400&h=300&fit=crop"}}],"primary":{},"id":"_Default"}} />
+_Default.storyName = 'Default'

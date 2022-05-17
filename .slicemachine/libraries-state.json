@@ -1,6 +1,90 @@
 {
   "slices": {
     "components": {
+      "margar_myndir": {
+        "library": "slices",
+        "id": "margar_myndir",
+        "name": "MargarMyndir",
+        "description": "MargarMyndir",
+        "model": {
+          "id": "margar_myndir",
+          "type": "SharedSlice",
+          "name": "MargarMyndir",
+          "description": "MargarMyndir",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "MargarMyndir",
+              "primary": {},
+              "items": {
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Mynd",
+                    "constraint": {
+                      "width": 400,
+                      "height": 300
+                    },
+                    "thumbnails": []
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "margar_myndir",
+            "items": [
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 400,
+                    "height": 300
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=400&h=300&fit=crop"
+                }
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 400,
+                    "height": 300
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=400&h=300&fit=crop"
+                }
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 400,
+                    "height": 300
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=400&h=300&fit=crop"
+                }
+              }
+            ],
+            "primary": {}
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "tsx"
+        },
+        "screenshotPaths": {}
+      },
       "mynd": {
         "library": "slices",
         "id": "mynd",
@@ -42,7 +126,10 @@
                   "type": "Image",
                   "config": {
                     "label": "Image",
-                    "constraint": {},
+                    "constraint": {
+                      "width": 1000,
+                      "height": 500
+                    },
                     "thumbnails": []
                   }
                 },
@@ -52,7 +139,7 @@
                     "label": "Image Text",
                     "placeholder": "",
                     "allowTargetBlank": true,
-                    "single": "paragraph,em,strong,heading4"
+                    "multi": "paragraph,strong,em,heading2,heading4,heading3"
                   }
                 },
                 "position": {
@@ -84,7 +171,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da?w=900&h=500&fit=crop"
               }
             }
           },
@@ -96,17 +183,17 @@
             "primary": {
               "image": {
                 "dimensions": {
-                  "width": 900,
+                  "width": 1000,
                   "height": 500
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=1000&h=500&fit=crop"
               },
               "imageText": [
                 {
                   "type": "paragraph",
-                  "text": "Lorem non enim dolor sint excepteur. Sit sunt cillum et labore ipsum ad cupidatat aute nisi. Quis nisi non dolore ipsum sunt ex excepteur ipsum enim ipsum proident excepteur qui fugiat fugiat.",
+                  "text": "Labore ea ut consequat voluptate non irure aliqua ex dolore.",
                   "spans": []
                 }
               ],
@@ -120,14 +207,14 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/hannesarholt/Desktop/HH2.0/.slicemachine/assets/slices/Mynd/default/preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\default\\preview.png",
             "width": 800,
-            "height": 296
+            "height": 32
           },
           "myndMedTexta": {
-            "path": "/Users/hannesarholt/Desktop/HH2.0/.slicemachine/assets/slices/Mynd/myndMedTexta/preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTexta\\preview.png",
             "width": 800,
-            "height": 296
+            "height": 90
           }
         }
       },
@@ -197,7 +284,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/hannesarholt/Desktop/HH2.0/.slicemachine/assets/slices/Texti/default/preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Texti\\default\\preview.png",
             "width": 800,
             "height": 68
           }
@@ -229,6 +316,15 @@
                     "allowTargetBlank": true,
                     "single": "heading1"
                   }
+                },
+                "centered": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Midjad",
+                    "placeholder_false": "false",
+                    "placeholder_true": "true",
+                    "default_value": false
+                  }
                 }
               },
               "items": {},
@@ -246,10 +342,11 @@
               "title": [
                 {
                   "type": "heading1",
-                  "text": "Synergize seamless models",
+                  "text": "Utilize turn-key partnerships",
                   "spans": []
                 }
-              ]
+              ],
+              "centered": true
             }
           }
         },
@@ -259,9 +356,9 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "/Users/hannesarholt/Desktop/HH2.0/.slicemachine/assets/slices/Titill/default/preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Titill\\default\\preview.png",
             "width": 800,
-            "height": 68
+            "height": 72
           }
         }
       }

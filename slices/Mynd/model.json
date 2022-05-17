@@ -34,7 +34,10 @@
           "type": "Image",
           "config": {
             "label": "Image",
-            "constraint": {},
+            "constraint": {
+              "width": 1000,
+              "height": 500
+            },
             "thumbnails": []
           }
         },
@@ -44,7 +47,7 @@
             "label": "Image Text",
             "placeholder": "",
             "allowTargetBlank": true,
-            "single": "paragraph,em,strong,heading4"
+            "multi": "paragraph,strong,em,heading2,heading4,heading3"
           }
         },
         "position": {
