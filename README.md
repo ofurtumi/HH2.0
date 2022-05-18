@@ -41,13 +41,14 @@ skipting yfir í nýju síðuna á að verða tiltölulega seamless
 
 
 **salir** 
-- [ ] yfirlit
-- [ ] hljóðberg
-- [ ] rauða herbergið
-- [ ] hvíta herbergið
-- [ ] arinstofa
-- [ ] baðstofuloftið
-- [ ] veitingastofur
+- [x] yfirlit
+- [x] hljóðberg
+- [x] rauða herbergið
+- [x] hvíta herbergið
+- [x] arinstofa
+- [x] baðstofuloftið
+- [x] veitingastofur
+- [ ] *bæta við embedded dótinu til að skoða sal á google maps*
 
 
 **heimili heimsmarkmiðana** 
@@ -76,6 +77,7 @@ skipting yfir í nýju síðuna á að verða tiltölulega seamless
 **fréttir** 
 - [ ] yfirlit
 - [ ] einstakar fréttir 
+
 **viðburðir** 
 - [ ] yfirlit
 - [ ] yfirlit dagatal ?

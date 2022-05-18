@@ -1,0 +1,10 @@
+.boxes section{
+    background-color: #fff;
+    transition: 0.2s;
+}
+
+.boxes:active,
+.boxes:focus-visible,
+.boxes:hover section {
+    background-color: #ddd;
+}
