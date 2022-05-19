@@ -3,6 +3,28 @@
   word-break: normal;
 }
 
+.textPrison a {
+  text-decoration: underline white;
+  transition: 0.2s;
+}
+
+.textPrison a:hover,
+.textPrison a:active,
+.textPrison a:focus-visible  {
+  text-decoration: underline black;
+}
+
+.imgLinkPrison a {
+  background-color: #fff;
+  transition: 0.2s;
+}
+
+.imgLinkPrison a:hover,
+.imgLinkPrison a:active,
+.imgLinkPrison a:focus-visible {
+  background-color: #ccc;
+}
+
 .titlePrison {
   padding: 0 1em;
   align-items: center;

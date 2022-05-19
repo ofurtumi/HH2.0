@@ -32,6 +32,19 @@
           }
         }
       }
+    },
+    "Cover": {
+      "slices1": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "mynd": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
     }
   }
 }

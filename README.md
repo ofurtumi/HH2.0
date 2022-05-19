@@ -30,7 +30,7 @@ skipting yfir í nýju síðuna á að verða tiltölulega seamless
 ### gögn
 *byrja að flytja yfir alvöru gögn af gömlu síðunni til að sjá hvort hún passi og hverju þarf að bæta við*
 
-[**veitingahús**](pages%5Cveitingahus)
+[**veitingahús**](pages/veitingahus)
 - [x] yfirlit 
 - [x] matseðill
   - [x] brunch
@@ -61,7 +61,8 @@ skipting yfir í nýju síðuna á að verða tiltölulega seamless
 
 
 **hannesarholt** 
-- [ ] hannes hafstein
+- [] hannes hafstein
+  - [x] æviágrip
   - [ ] önnur heimili
   - [ ] ljóðið
   - [ ] heimildarmynd
@@ -72,6 +73,14 @@ skipting yfir í nýju síðuna á að verða tiltölulega seamless
   - [ ] reykjavík 1926
   - [ ] þingholtin
   - [ ] ýmis fróðleikur
+- [x] markmið
+- [x] skipulagsskrá
+- [x] faðmlag fortíðar
+- [x] stjórn og menningarráð
+- [x] starfsfólk
+- [x] hollvinir
+  - [x] síðan
+  - [ ] formið
 
 
 **fréttir** 

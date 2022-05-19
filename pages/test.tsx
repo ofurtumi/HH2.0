@@ -19,17 +19,9 @@ export async function getStaticProps({
 	previewData: any;
 }) {
 	const client = createClient({ previewData }); // sama functionality og í öllum hinum
-	const data = await client.getByUID('basic', params.basic);
+	const data = await client.getByUID('basic', 'test');
 
 	return { props: { data } };
 }
-
-// * fallback fyrir dýnamískar síður
-export const getStaticPaths: GetStaticPaths<{ slug: string }> = async () => {
-	return {
-		paths: [], //indicates that no page needs be created at build time
-		fallback: 'blocking', //indicates the type of fallback
-	};
-};
 
 export default Basic;

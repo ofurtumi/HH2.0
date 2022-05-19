@@ -6,10 +6,9 @@ const Salir = ({ data }: { data: any }) => {
   return (
     <main>
       {data.map((salur: any, i: number) => {
+        console.log('salur --> ', salur)
         return (
-          <a href={"/salir/" + salur.uid} key={i} className={styles.boxes}>
-            <Mynd slice={salur.data.slices[2]} />
-          </a>
+            <Mynd slice={salur.data.slices1[0] ?? salur.data.slices[2]} key={i} />
         );
       })}
     </main>

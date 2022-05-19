@@ -62,6 +62,53 @@
       },
       "items": {},
       "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "myndMedTextaOgLink",
+      "name": "Mynd með texta og link",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Mynd",
+      "primary": {
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1000,
+              "height": 500
+            },
+            "thumbnails": []
+          }
+        },
+        "imageText": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Image Text",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,heading2,heading4,heading3"
+          }
+        },
+        "position": {
+          "type": "Boolean",
+          "config": {
+            "label": "Staðsetning myndar",
+            "placeholder_false": "vinstri",
+            "placeholder_true": "hægri",
+            "default_value": false
+          }
+        },
+        "link": {
+          "type": "Text",
+          "config": {
+            "label": "Linkur",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     }
   ]
 }

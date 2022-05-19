@@ -22,6 +22,9 @@
             }
           }
         }
+      },
+      "link": {
+        "primary": {}
       }
     },
     "Mynd": {
@@ -37,6 +40,9 @@
             }
           }
         }
+      },
+      "myndMedTextaOgLink": {
+        "primary": {}
       }
     },
     "Vidburdur": {

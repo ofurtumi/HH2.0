@@ -32,6 +32,42 @@
       },
       "items": {},
       "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "link",
+      "name": "Texti með link",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Texti",
+      "primary": {
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "multi": "paragraph,heading2,heading3,strong,em"
+          }
+        },
+        "centered": {
+          "type": "Boolean",
+          "config": {
+            "label": "Midjad",
+            "placeholder_false": "nei",
+            "placeholder_true": "já",
+            "default_value": false
+          }
+        },
+        "link": {
+          "type": "Text",
+          "config": {
+            "label": "Linkur",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     }
   ]
 }

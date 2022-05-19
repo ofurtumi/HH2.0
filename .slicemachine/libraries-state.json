@@ -83,7 +83,13 @@
           "fileName": "index",
           "extension": "tsx"
         },
-        "screenshotPaths": {}
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\MargarMyndir\\default\\preview.png",
+            "width": 800,
+            "height": 436
+          }
+        }
       },
       "mynd": {
         "library": "slices",
@@ -154,6 +160,53 @@
               },
               "items": {},
               "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "myndMedTextaOgLink",
+              "name": "Mynd með texta og link",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Mynd",
+              "primary": {
+                "image": {
+                  "type": "Image",
+                  "config": {
+                    "label": "Image",
+                    "constraint": {
+                      "width": 1000,
+                      "height": 500
+                    },
+                    "thumbnails": []
+                  }
+                },
+                "imageText": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Image Text",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,em,heading2,heading4,heading3"
+                  }
+                },
+                "position": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Staðsetning myndar",
+                    "placeholder_false": "vinstri",
+                    "placeholder_true": "hægri",
+                    "default_value": false
+                  }
+                },
+                "link": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Linkur",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
             }
           ]
         },
@@ -171,7 +224,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=900&h=500&fit=crop"
               }
             }
           },
@@ -188,16 +241,42 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1607582278043-57198ac8da43?w=1000&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1000&h=500&fit=crop"
               },
               "imageText": [
                 {
                   "type": "paragraph",
-                  "text": "Labore ea ut consequat voluptate non irure aliqua ex dolore.",
+                  "text": "Laboris veniam sint quis. Labore culpa qui elit eiusmod minim eiusmod in.",
                   "spans": []
                 }
               ],
               "position": true
+            }
+          },
+          "myndMedTextaOgLink": {
+            "variation": "myndMedTextaOgLink",
+            "name": "Mynd með texta og link",
+            "slice_type": "mynd",
+            "items": [],
+            "primary": {
+              "image": {
+                "dimensions": {
+                  "width": 1000,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da?w=1000&h=500&fit=crop"
+              },
+              "imageText": [
+                {
+                  "type": "paragraph",
+                  "text": "Excepteur consequat consequat eiusmod nisi elit nulla. Tempor tempor consequat esse dolor amet non. Non labore sunt veniam Lorem nulla voluptate ullamco amet.",
+                  "spans": []
+                }
+              ],
+              "position": true,
+              "link": "reinvent cross-media synergies"
             }
           }
         },
@@ -209,12 +288,12 @@
           "default": {
             "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\default\\preview.png",
             "width": 800,
-            "height": 32
+            "height": 459
           },
           "myndMedTexta": {
             "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTexta\\preview.png",
             "width": 800,
-            "height": 90
+            "height": 285
           }
         }
       },
@@ -257,6 +336,42 @@
               },
               "items": {},
               "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "link",
+              "name": "Texti með link",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Texti",
+              "primary": {
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,heading2,heading3,strong,em"
+                  }
+                },
+                "centered": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Midjad",
+                    "placeholder_false": "nei",
+                    "placeholder_true": "já",
+                    "default_value": false
+                  }
+                },
+                "link": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Linkur",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
             }
           ]
         },
@@ -270,11 +385,28 @@
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Ex elit consectetur ex cillum culpa id cupidatat esse aliqua qui elit laboris aute ipsum incididunt. Nisi consequat excepteur reprehenderit.",
+                  "text": "Voluptate in laboris tempor.",
                   "spans": []
                 }
               ],
-              "centered": false
+              "centered": true
+            }
+          },
+          "link": {
+            "variation": "link",
+            "name": "Texti með link",
+            "slice_type": "texti",
+            "items": [],
+            "primary": {
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Sit consectetur veniam voluptate proident ipsum reprehenderit voluptate. Nisi mollit est esse ipsum ut reprehenderit duis cillum consequat sunt eu enim.",
+                  "spans": []
+                }
+              ],
+              "centered": false,
+              "link": "grow dot-com blockchains"
             }
           }
         },
@@ -286,7 +418,7 @@
           "default": {
             "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Texti\\default\\preview.png",
             "width": 800,
-            "height": 68
+            "height": 53
           }
         }
       },
