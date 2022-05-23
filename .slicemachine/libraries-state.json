@@ -321,7 +321,7 @@
                     "label": "Description",
                     "placeholder": "A nice description of your feature",
                     "allowTargetBlank": true,
-                    "multi": "paragraph,heading2,heading3,strong,em"
+                    "multi": "paragraph,heading2,heading3,strong,em,hyperlink"
                   }
                 },
                 "centered": {
@@ -385,11 +385,11 @@
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Voluptate in laboris tempor.",
+                  "text": "Cillum id anim magna. Nulla eu cupidatat laboris. Ex aute cillum tempor cupidatat pariatur proident sint occaecat ex cupidatat commodo nisi quis.",
                   "spans": []
                 }
               ],
-              "centered": true
+              "centered": false
             }
           },
           "link": {
@@ -401,12 +401,12 @@
               "description": [
                 {
                   "type": "paragraph",
-                  "text": "Sit consectetur veniam voluptate proident ipsum reprehenderit voluptate. Nisi mollit est esse ipsum ut reprehenderit duis cillum consequat sunt eu enim.",
+                  "text": "Magna deserunt eu ut amet laborum anim et ut cupidatat eu tempor sit.",
                   "spans": []
                 }
               ],
               "centered": false,
-              "link": "grow dot-com blockchains"
+              "link": "strategize customized blockchains"
             }
           }
         },
@@ -414,13 +414,7 @@
           "fileName": "index",
           "extension": "tsx"
         },
-        "screenshotPaths": {
-          "default": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Texti\\default\\preview.png",
-            "width": 800,
-            "height": 53
-          }
-        }
+        "screenshotPaths": {}
       },
       "titill": {
         "library": "slices",

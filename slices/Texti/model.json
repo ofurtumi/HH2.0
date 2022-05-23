@@ -17,7 +17,7 @@
             "label": "Description",
             "placeholder": "A nice description of your feature",
             "allowTargetBlank": true,
-            "multi": "paragraph,heading2,heading3,strong,em"
+            "multi": "paragraph,heading2,heading3,strong,em,hyperlink"
           }
         },
         "centered": {

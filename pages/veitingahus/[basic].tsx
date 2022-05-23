@@ -18,7 +18,7 @@ const Basic = ({ data, others }: { data: any; others: any }) => {
       >
         {others.map((page: any, i: number) => {
           return (
-            <li>
+            <li key={i}>
               <Link passHref href={"/veitingahus/" + page.uid}>
                 {page.data.slices[0].primary.title[0].text}
               </Link>
