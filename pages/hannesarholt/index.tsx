@@ -1,4 +1,5 @@
 import { asText } from "@prismicio/helpers";
+import Link from "next/link";
 import { createClient } from "../../prismicio";
 import { Titill } from "../../slices";
 
@@ -12,7 +13,7 @@ const Hannesarholt = ({ data }: { data: any }) => {
                       <li key={i}><a href={"/hannesarholt/"+page.uid}>{page.data.slices[0].primary.title[0].text}</a></li>
                   )
               })}
-              <li><a href="/hannesarholt/_100ar/index.html">100 ára saga Hannesarholts</a></li>
+              <li><Link href="/hannesarholt/_100ar/index.html">100 ára saga Hannesarholts</Link></li>
           </ul>
       </main>
   )
