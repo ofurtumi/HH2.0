@@ -4,8 +4,6 @@ import { PrismicLink } from "@prismicio/react";
 import Link from "next/link";
 
 const Texti = ({ slice }: { slice: any }) => {
-  console.log("slice --> ", slice);
-  console.log("variation --> ", slice.variation);
   return (
     <section
       className={styles.textPrison}

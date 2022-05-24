@@ -6,7 +6,6 @@ const Salir = ({ data }: { data: any }) => {
   return (
     <main>
       {data.map((salur: any, i: number) => {
-        console.log('salur --> ', salur)
         return (
             <Mynd slice={salur.data.slices1[0] ?? salur.data.slices[2]} key={i} />
         );

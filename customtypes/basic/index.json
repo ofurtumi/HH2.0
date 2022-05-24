@@ -28,6 +28,9 @@
             },
             "margar_myndir": {
               "type": "SharedSlice"
+            },
+            "embedded": {
+              "type": "SharedSlice"
             }
           }
         }

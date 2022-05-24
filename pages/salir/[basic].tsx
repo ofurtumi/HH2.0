@@ -34,7 +34,7 @@ export async function getStaticPaths () {
 
 	return {
 		paths, // ! telur hvaða síður þarf að búa til á build time
-		fallback: false, // ! false segir að það eigi að gera 404 ef síðan finnst ekki
+		fallback: "blocking", // ! false segir að það eigi að gera 404 ef síðan finnst ekki
 	};
 };
 

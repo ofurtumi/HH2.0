@@ -63,16 +63,16 @@ skipting yfir í nýju síðuna á að verða tiltölulega seamless
 **hannesarholt** 
 - [] hannes hafstein
   - [x] æviágrip
-  - [ ] önnur heimili
-  - [ ] ljóðið
-  - [ ] heimildarmynd
+  - [x] önnur heimili
+  - [x] ljóðið
+  - [x] heimildarmynd
 - [ ] sögulegur fróðleikur
-  - [ ] 100 ára saga (port)
-  - [ ] 100 ára afmæli
-  - [ ] áfangar í sögu reykjavíkur
-  - [ ] reykjavík 1926
+  - [x] 100 ára saga (port) */hannesarholt/_100ar/index.html*
+  - [x] 100 ára afmæli
+  - [x] áfangar í sögu reykjavíkur
+  - [x] reykjavík 1926
   - [ ] þingholtin
-  - [ ] ýmis fróðleikur
+    - [ ] þetta er big ting, gleymdi að þetta eru svona 40 undirsíður
 - [x] markmið
 - [x] skipulagsskrá
 - [x] faðmlag fortíðar
@@ -96,7 +96,7 @@ skipting yfir í nýju síðuna á að verða tiltölulega seamless
 ### slices, types og form
 - [ ] forsíðuformið
 - [ ] linked / embedded slice
-- [ ] myndbandaslice
+- [x] myndbandaslice
 - [x] margar myndir slice **ATH: það er "komið" má kíkja betur á seinna**
 
 ---

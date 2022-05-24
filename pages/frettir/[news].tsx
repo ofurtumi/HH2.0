@@ -2,7 +2,6 @@ import { GetStaticPaths } from "next";
 import { createClient } from "../../prismicio";
 
 const News = ({data}:{data:any}) => {
-    console.log(data)
     return (
         <p>ass</p>
     )

@@ -3,7 +3,6 @@ import styles from "../../styles/Slices.module.css";
 
 const Mynd = ({ slice }: { slice: any }) => {
   if (slice.variation === "default") {
-    console.log("default --> ");
     return (
       <section className={styles.imgVilla}>
         <img

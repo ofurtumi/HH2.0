@@ -1,0 +1,316 @@
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+#kaflarnir {
+  background: #fff1e6;
+}
+#husid-byggt {
+  background: #ffeb68;
+}
+#eigandasaga {
+  background: #f5989d;
+}
+#grundastigur {
+  background: #bde08c;
+}
+#timabil {
+  background: #6699cc;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h3,
+h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#timabil h3 {
+  font-family: Roboto, sans-serif;
+}
+
+h4 {
+  font-family: Roboto, sans-serif;
+}
+
+#eigandasaga h2,
+#eigandasaga h3,
+#eigandasaga h4 {
+  color: #ffeb68;
+}
+
+#hundrad h3 {
+  font-family: Roboto, sans-serif;
+}
+
+
+.container {
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+em {
+  display:block;
+  font-size: 12px;
+  margin: 0 0 10px;
+}
+
+hr {
+  border-top: 0;
+  background: url('../Hannesarholt_files/ruler.png');
+  height: 1px;
+}
+
+iframe {
+  margin: 0 0 10px;
+}
+
+.img-responsive {
+  padding: 5px;
+  background: #fff;
+  margin: 0 0 10px;
+}
+
+#kaflarnir .container {
+  padding-top: 0;
+}
+
+.nav-pills > li {
+  float:none;
+}
+
+.nav-pills > li > a {
+  border-radius: 0;
+  text-transform: uppercase;
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+  font-size: 22px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 33px;
+  color: #343434;
+  font-style: italic;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+#timabil h3 {
+  color: #fff;
+}
+
+#timabil h4 {
+  color: #333333;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.img-rounded {
+  border-radius: 50%;
+  background: #fff;
+  padding: 2px;
+}
+
+.nav-pills {
+  margin-bottom: 20px;
+}
+
+.sp-chapter {
+  position: absolute;
+  top: -90px;
+}
+
+.container {
+  position: relative;
+}
+
+.kaflarnir {
+  position: absolute;
+  top: 150px;
+  right: 10px;
+}
+
+#eigandasaga .sp-chapter {
+}
+
+.relative {
+  position: relative;
+}
+
+.center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.no-frame {
+  padding: 0;
+  background: none;
+}
+
+.gallery img {
+  max-width: 130px;
+  margin: 5px 3px;
+}
+
+.float-left {
+  float:left;
+}
+
+.float-right {
+  float:right;
+}
+
+.pd-left-10 {
+  padding-left: 10px;
+}
+
+.cl-both {
+  clear:both;
+}
+
+iframe {
+  max-width: 100% !important;
+}
+
+#timabil h2 {
+  color: #fff;
+}
+
+.mg-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.img-rounded {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.mg-left-5 {
+  margin-left: 5px;
+}
+
+.mg-left-10 {
+  margin-left: 5px;
+}
+
+#hundrad {
+  background: #fff1e6;
+}
+
+.offset-img-1 {
+  position: absolute;
+  left: 113px;
+  top: 75px;
+}
+
+.pd-bottom-40 {
+  padding-bottom: 40px;
+}
+
+em.credit {
+  margin-top: -7px;
+}
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: rgba(232, 98, 86, 0.8) url(../Hannesarholt_files/cd-top-arrow.svg) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+  -moz-transition: opacity .3s 0s, visibility 0s .3s;
+  transition: opacity .3s 0s, visibility 0s .3s;
+}
+.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+  -moz-transition: opacity .3s 0s, visibility 0s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s;
+}
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+.no-touch .cd-top:hover {
+  background-color: #e86256;
+  opacity: 1;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  outline: none;
+}
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+  .kaflarnir {
+    display:none;
+  }
+
+  .smelltu {
+    display: none;
+  }
+
+  .float-left {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
