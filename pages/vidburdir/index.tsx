@@ -31,7 +31,7 @@ const Events = ({ data }: { data: any }) => {
   );
 };
 
-export async function getStaticProps({ params }: { params: any }) {
+export async function getServerSideProps() {
   const client = createClient(); // býr til client
   const events = await client.getAllByType("event"); // notar client til að sækja allar upplýsingar
   // todo: bæta við paging? held það þurfi þegar komnir eru yfir 100 viðburðir
