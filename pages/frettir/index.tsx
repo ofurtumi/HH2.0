@@ -31,7 +31,7 @@ const AllNews = ({ data }: { data: any }) => {
   );
 };
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const client = createClient({}); // sama functionality og í öllum hinum
   const data = await client.getAllByType("news");
 
