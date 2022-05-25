@@ -7,7 +7,7 @@ const Header = () => {
     <header>
       <nav className={styles.prison}>
         <Link passHref href="/">
-          <img src="/imgs/nav_logo.png" alt="Hannesarholt" />
+          <img src="/imgs/nav_logo.png" alt="Hannesarholt" className={styles.logo}/>
         </Link>
         <div className={styles.dropdown}>
           <button>=</button>

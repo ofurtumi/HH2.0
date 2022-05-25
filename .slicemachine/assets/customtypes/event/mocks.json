@@ -1,12 +1,12 @@
 {
-  "id": "2fa040ee-a645-4150-8067-31a3da31fe96",
-  "uid": "porro-est-quas",
+  "id": "ad55cc90-2ec2-437f-bf37-1e49cac691cd",
+  "uid": "architecto-excepturi-et",
   "type": "event",
   "data": {
     "title": [
       {
         "type": "heading1",
-        "text": "Maximize viral interfaces",
+        "text": "Optimize rich systems",
         "spans": []
       }
     ],
@@ -21,33 +21,48 @@
       },
       "alt": "Placeholder image",
       "copyright": null,
-      "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613?w=900&h=500&fit=crop"
+      "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613?w=900&h=500&fit=crop",
+      "cover": {
+        "dimensions": {
+          "width": 500,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613?w=500&h=500&fit=crop"
+      },
+      "banner": {
+        "dimensions": {
+          "width": 1200,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1589321599763-d66926c29613?w=1200&h=500&fit=crop"
+      }
     },
     "text": [
       {
         "type": "paragraph",
-        "text": "Culpa elit ex laborum dolor voluptate consectetur magna officia. Sunt nulla est laboris consectetur ut minim.",
+        "text": "Elit fugiat ad commodo est labore in.",
         "spans": []
       }
     ],
     "dates": [
       {
-        "date": "2014-06-14T04:23:35.562Z"
+        "date": "2019-01-18T04:34:14.829Z"
       },
       {
-        "date": "2015-03-18T15:14:52.435Z"
+        "date": "2020-04-17T23:26:03.146Z"
       },
       {
-        "date": "2021-06-22T13:19:15.824Z"
+        "date": "2018-03-01T07:03:22.637Z"
       },
       {
-        "date": "2019-07-04T03:59:29.907Z"
+        "date": "2018-06-29T09:00:49.533Z"
       },
       {
-        "date": "2018-07-31T14:32:19.872Z"
-      },
-      {
-        "date": "2015-05-22T13:14:49.969Z"
+        "date": "2012-11-05T09:51:34.188Z"
       }
     ]
   }

@@ -23,7 +23,6 @@ export async function getStaticProps() {
   const client = createClient(); // sama functionality og í öllum hinum
   const data = await client.getAllByTag("Hannesarholt");
 
-  console.log('data --> ', data)
   return { props: { data } };
 }
 

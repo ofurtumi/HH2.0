@@ -52,7 +52,7 @@ skipting yfir í nýju síðuna á að verða tiltölulega seamless
 
 
 **heimili heimsmarkmiðana** 
-- [ ] yfirlit
+- [x] yfirlit
 - [ ] heimsmarkmiðin 17
 - [ ] hvað getur þú gert 
 - [ ] kennsla
@@ -61,7 +61,7 @@ skipting yfir í nýju síðuna á að verða tiltölulega seamless
 
 
 **hannesarholt** 
-- [] hannes hafstein
+- [x] hannes hafstein
   - [x] æviágrip
   - [x] önnur heimili
   - [x] ljóðið
@@ -84,8 +84,8 @@ skipting yfir í nýju síðuna á að verða tiltölulega seamless
 
 
 **fréttir** 
-- [ ] yfirlit
-- [ ] einstakar fréttir 
+- [x] yfirlit
+- [x] einstakar fréttir 
 
 **viðburðir** 
 - [ ] yfirlit
@@ -95,7 +95,9 @@ skipting yfir í nýju síðuna á að verða tiltölulega seamless
 
 ### slices, types og form
 - [ ] forsíðuformið
-- [ ] linked / embedded slice
+- [ ] link list slice (fyrir header og allskonar menu)
+- [x] linked slice 
+- [x] embedded video slice
 - [x] myndbandaslice
 - [x] margar myndir slice **ATH: það er "komið" má kíkja betur á seinna**
 

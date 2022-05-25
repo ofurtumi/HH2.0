@@ -1,13 +1,15 @@
 .prison {
+    
     padding-top: 1em;
     display: grid;
     grid-template-columns: 1fr;
-    width: 100vw;
-    position: absolute;
-    left: 0;
+    width: 100%;
+    /* position: absolute; */
+    /* left: 0; */
     justify-items: center;    
     background-color: #363636;
     color: #fff;
+    overflow-x: hidden;
 }
 
 .prison img {
@@ -15,6 +17,8 @@
 }
 
 .logo {
+    width: 90%;
+    max-width: 250px;
     filter: invert(1);
     mix-blend-mode:lighten;
 }

@@ -1,0 +1,25 @@
+.prison {
+    display: flex;
+    flex-direction: column;
+}
+
+.cot {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.5em;
+}
+
+.cot * {
+    margin: 0;
+}
+
+.cot h1 {
+    text-align: center;
+}
+
+.cot p {
+    padding-top: 0.5em;
+    font-style: italic;
+    grid-row: 1;
+    text-align: end;
+}

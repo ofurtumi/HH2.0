@@ -1,16 +1,16 @@
 {
-  "id": "00ff8e01-f477-4825-bb4c-f6e4726d9d1c",
-  "uid": "earum-error-deleniti",
+  "id": "ee9bd77c-80c5-4ac1-94e2-8d513b1703e9",
+  "uid": "pariatur-praesentium-est",
   "type": "news",
   "data": {
     "title": [
       {
         "type": "heading1",
-        "text": "Productize intuitive communities",
+        "text": "Leverage plug-and-play niches",
         "spans": []
       }
     ],
-    "date": "2016-05-01",
+    "date": "2017-02-16",
     "image": {
       "dimensions": {
         "width": null,
@@ -18,7 +18,7 @@
       },
       "alt": "Placeholder image",
       "copyright": null,
-      "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a?w=null&h=null&fit=crop",
+      "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=null&h=null&fit=crop",
       "cover": {
         "dimensions": {
           "width": 500,
@@ -26,7 +26,16 @@
         },
         "alt": "Placeholder image",
         "copyright": null,
-        "url": "https://images.unsplash.com/photo-1587653915936-5623ea0b949a?w=500&h=500&fit=crop"
+        "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=500&h=500&fit=crop"
+      },
+      "banner": {
+        "dimensions": {
+          "width": 1200,
+          "height": 500
+        },
+        "alt": "Placeholder image",
+        "copyright": null,
+        "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=1200&h=500&fit=crop"
       }
     }
   }

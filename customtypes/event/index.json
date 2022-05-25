@@ -34,7 +34,18 @@
         "config": {
           "label": "Mynd",
           "constraint": {},
-          "thumbnails": []
+          "thumbnails": [
+            {
+              "name": "cover",
+              "width": 500,
+              "height": 500
+            },
+            {
+              "name": "banner",
+              "width": 1200,
+              "height": 500
+            }
+          ]
         }
       },
       "text": {
