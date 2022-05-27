@@ -1,20 +1,14 @@
 import { SliceZone } from "@prismicio/react";
 import Link from "next/link";
+import styles from "../../styles/Diner.module.css"
 import { createClient } from "../../prismicio";
 import { components } from "../../slices";
 
 const Veitingahus = ({ data, others }: { data: any; others: any }) => {
   return (
     <main>
-      <ul
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          gap: "1.5em",
-          listStyle: "none",
-          paddingInlineStart: "0",
-        }}
-      >
+      <button className={styles.navButton}>Meiri upplýsingar</button>
+      <ul className={styles.navPrison}>
         {others.map((page: any, i: number) => {
           return (
             <li key={i}>

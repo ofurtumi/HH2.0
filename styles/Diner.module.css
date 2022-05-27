@@ -1,0 +1,62 @@
+.navButton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 0;
+  font-size: 1em;
+  background-color: white;
+  cursor: pointer;
+  padding-right: 0.5em;
+  grid-column: 2;
+  transition: 0.2s;
+}
+
+.navButton:hover,
+.navButton:active,
+.navButton:focus-visible {
+  color: #555;
+}
+
+.navPrison {
+  display: none;
+  flex-direction: column;
+  list-style: none;
+  padding-inline-start: 0;
+  padding: 1.5em;
+  gap: 0.5em;
+  transition: 1s;
+}
+
+.navPrison li {
+  text-decoration: underline white;
+  border-bottom: 1px solid #aaa;
+  transition: 0.2s;
+}
+
+.navPrison li:hover {
+  text-decoration: underline black;
+}
+
+.navButton:focus ~ .navPrison,
+.navPrison:active {
+  height: auto;
+  display: flex;
+}
+
+@media only screen and (min-width: 1000px) {
+.navButton {
+  display: none;
+}
+
+  .navPrison {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  .navPrison li {
+    text-align: center;
+    border: 0;
+  }
+}

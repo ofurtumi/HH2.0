@@ -9,9 +9,10 @@ const Header = () => {
         <Link passHref href="/">
           <img src="/imgs/nav_logo.png" alt="Hannesarholt" className={styles.logo}/>
         </Link>
-        <div className={styles.dropdown}>
-          <button>=</button>
-          <ul>
+        {/* <div className={styles.dropdown}> */}
+          <button className={styles.dropdownButton}>=</button>
+        {/* </div> */}
+        <ul className={styles.dropdownContent}>
             <li>
               <Link passHref href="/veitingahus">
                 Veitingahús
@@ -42,8 +43,7 @@ const Header = () => {
                 Fréttir
               </Link>
             </li>
-          </ul>
-        </div>
+        </ul>
       </nav>
     </header>
   );
