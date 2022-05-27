@@ -57,9 +57,8 @@ const Home = ({ slices, events }: { slices: any; events: any }) => {
   );
 };
 
-export async function getStaticProps({ params }: { params: any }) {
+export async function getServerSideProps() {
   const today = Date.now();
-  console.log("today --> ", today);
   const client = createClient();
   const pageData = await client.getByType("index");
   const events = await client.getAllByType("event", {
@@ -68,7 +67,6 @@ export async function getStaticProps({ params }: { params: any }) {
     orderings: "my.event.dates.date",
   });
 
-  //   console.log('events --> ', events)
   return { props: { slices: pageData.results[0].data.slices, events } };
 }
 
