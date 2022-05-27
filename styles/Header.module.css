@@ -1,89 +1,103 @@
 .prison {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 100vw;
+  margin: 1em 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
 }
 
 .dropdown {
-    margin: 1em 0;
-    width: 100%;
-    display: flex;
-    justify-content: flex-end;
+  /* margin: 1em 0; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.dropdown button {
-    border: 0;
-    font-size: 2em;
-    background-color: white;
-    cursor: pointer;
-    padding-right: 1em;
-    transition: 0.2s;
+.dropdownButton {
+  border: 0;
+  font-size: 2em;
+  background-color: white;
+  cursor: pointer;
+  padding-right: 0.5em;
+  grid-column: 2;
+  display: flex;
+  justify-content: flex-end;
+
+  transition: 0.2s;
 }
 
-.dropdown button:hover,
-.dropdown button:active,
-.dropdown button:focus-visible {
-color: #555;
+.dropdownButton:hover,
+.dropdownButton:active,
+.dropdownButton:focus-visible {
+  color: #555;
 }
 
-.dropdown ul {
-    width: calc(100vw - 4em);
-    display: none;
-    background-color: white;
-    position: absolute;
-    padding: 1em;
-    border: 5px solid black;
-    border-radius: 15px;
-    top: 0;
-    right: 2em;
-    list-style: none;
-    
-    flex-direction: column;
-    gap: 0.5em;
-    align-items: flex-end;
-    text-align: end;
+.dropdownContent {
+  display: none;
+  background-color: white;
+  grid-column: span 2;
+  grid-row: 2;
+  padding: 1em;
+  list-style: none;
+  flex-direction: column;
+  gap: 0.5em;
 }
 
-.dropdown button:focus + ul, .dropdown ul:hover{
-    display: flex;
+.dropdownContent li {
+  border-bottom: 1px solid #aaa;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.dropdownButton:focus ~ .dropdownContent,
+.dropdownContent:active {
+  display: flex;
 }
 
 .prison li {
-    text-decoration: underline white;
-    transition: 0.2s;
+  text-decoration: underline white;
+  transition: 0.2s;
 }
 
 .prison li:hover,
 .prison li:active,
 .prison li:focus-visible {
-    text-decoration: underline black;
+  text-decoration: underline black;
 }
 
 .logo {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 850px) {
-    .prison {
-        max-width: 95%;
-        margin: 0 auto;
-        grid-template-columns: 1fr 3fr;
-        justify-items: center;
-        align-items: center;
-    }
+  .prison {
+    font-size: 1.2em;
+    padding-top: 1em;
+    max-width: 95%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 3fr;
+    justify-items: left;
+    align-items: center;
+  }
 
-    .dropdown button {
-        display: none;
-    }
+  .dropdownButton {
+    display: none;
+  }
 
-    .dropdown ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: auto;
-        grid-column: 2;
-        position: relative;
-        border: 0;
-        background: none;
-    }
+  .dropdownContent {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+    grid-column: 2;
+    grid-row: 1;
+    position: relative;
+    border: 0;
+    background: none;
+  }
+
+  .dropdownContent li {
+    text-align: center;
+    border: 0;
+  }
 }
