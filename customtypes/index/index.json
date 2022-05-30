@@ -18,6 +18,9 @@
             },
             "titill": {
               "type": "SharedSlice"
+            },
+            "index_form": {
+              "type": "SharedSlice"
             }
           }
         }
