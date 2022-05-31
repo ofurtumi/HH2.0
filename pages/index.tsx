@@ -10,10 +10,14 @@ import { FormEvent, useState } from "react";
 
 const Home = ({ slices, events }: { slices: any; events: any }) => {
   const [name, setName] = useState("");
-  const [message, setMessage] = useState("");
+  const [message, setMessage] = useState(""); 
+  const [formLabel, setFormLabel] = useState("Finnst þér mikilvægt að Hannesarholt lifi áfram?");
+  const [sent, setSent] = useState(false);
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setFormLabel("Takk kærlega fyrir að senda inn svar, allt hjálpar!")
+    setSent(true)
 
     // * skilgreining á data strúktúr, sjúklega flókin ég veit
     const data = {
@@ -22,7 +26,7 @@ const Home = ({ slices, events }: { slices: any; events: any }) => {
     };
 
     // * kall í apann
-    console.log("data --> ", data);
+    // console.log("data --> ", data);
 
     const response = await fetch("/api/submit", {
       method: "POST",
@@ -34,9 +38,10 @@ const Home = ({ slices, events }: { slices: any; events: any }) => {
     });
 
     const content = await response.json();
+    
 
     // alert(content.data.tableRange)
-    console.log("content --> ", content);
+    // console.log("content --> ", content);
   };
 
   const today = Date.now();
@@ -48,14 +53,16 @@ const Home = ({ slices, events }: { slices: any; events: any }) => {
       <section className={styles.garden}>
         <img src={slices[1].primary.image.url} alt={slices[1].primary.image.alt} />
         <form onSubmit={handleSubmit} className={styles.formPrison}>
+          <h3>{formLabel}</h3>
           <div className={styles.formCell}>
             <label htmlFor="name">Nafn</label>
             <input
-              placeholder="Þitt nafn"
+              placeholder="Nafnið þitt"
               value={name}
               type="text"
               name="name"
               id="name"
+              disabled={sent}
               required
               onChange={(e) => setName(e.target.value)}
             />
@@ -63,15 +70,16 @@ const Home = ({ slices, events }: { slices: any; events: any }) => {
           <div className={styles.formCell}>
             <label htmlFor="message">Skilaboð</label>
             <textarea
-              placeholder="Þín skilaboð"
+              placeholder="Svarið þitt"
               value={message}
               name="message"
               id="message"
+              disabled={sent}
               required
               onChange={(e) => setMessage(e.target.value)}
             />
           </div>
-          <button type="submit">Senda Skilaboð</button>
+          <button disabled={sent} type="submit">Senda svar</button>
         </form>
       </section>
       <section style={{ padding: "0 1em" }}>

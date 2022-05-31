@@ -18,7 +18,12 @@
   width: 100%;
 }
 
-.formPrison,
+.formPrison {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
 .formCell {
   gap: 0.5em;
   display: flex;
@@ -49,6 +54,15 @@
 
 .formPrison button {
   font-weight: bold;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.formPrison button:hover,
+.formPrison button:active,
+.formPrison button:focus-visible {
+  box-shadow: 1px 1px 1px #000;
+
 }
 
 @media only screen and (min-width: 750px) {
@@ -60,5 +74,9 @@
 
   .formPrison {
     height: 100%;
+  }
+
+  .formPrison textarea {
+    height: auto;
   }
 }

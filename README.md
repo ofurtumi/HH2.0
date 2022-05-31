@@ -80,7 +80,6 @@ skipting yfir í nýju síðuna á að verða tiltölulega seamless
 - [x] starfsfólk
 - [x] hollvinir
   - [x] síðan
-  - [ ] formið
 
 
 **fréttir** 
@@ -88,25 +87,14 @@ skipting yfir í nýju síðuna á að verða tiltölulega seamless
 - [x] einstakar fréttir 
 
 **viðburðir** 
-- [ ] yfirlit
-- [ ] yfirlit dagatal ?
+- [x] yfirlit
 - [x] einstakir viðburðir
 
 
 ### slices, types og form
-- [ ] forsíðuformið
+- [x] forsíðuformið
 - [ ] link list slice (fyrir header og allskonar menu)
 - [x] linked slice 
 - [x] embedded video slice
 - [x] myndbandaslice
 - [x] margar myndir slice **ATH: það er "komið" má kíkja betur á seinna**
-
----
-
-## grófara todo: 
-- [ ] fréttasíður
-  - [ ] yfirlit
-  - [ ] einstakar fréttir
-- [ ] viðburðarsíður
-  - [ ] yfirlit
-  - [x] einstakir viðburðir
