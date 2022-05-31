@@ -67,6 +67,144 @@
           }
         }
       },
+      "index_form": {
+        "library": "slices",
+        "id": "index_form",
+        "name": "IndexForm",
+        "description": "IndexForm",
+        "model": {
+          "id": "index_form",
+          "type": "SharedSlice",
+          "name": "IndexForm",
+          "description": "IndexForm",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "IndexForm",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "heading1",
+                    "label": "Title",
+                    "placeholder": "This is where it all begins..."
+                  }
+                },
+                "description": {
+                  "type": "StructuredText",
+                  "config": {
+                    "single": "paragraph",
+                    "label": "Description",
+                    "placeholder": "A nice description of your feature"
+                  }
+                }
+              },
+              "items": {
+                "Field1": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Field1",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                },
+                "Field2": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Field2",
+                    "placeholder": "",
+                    "allowTargetBlank": true,
+                    "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "index_form",
+            "items": [
+              {
+                "Field1": [
+                  {
+                    "type": "paragraph",
+                    "text": "Anim amet dolore voluptate mollit sit ex proident mollit eu cupidatat.",
+                    "spans": []
+                  }
+                ],
+                "Field2": [
+                  {
+                    "type": "paragraph",
+                    "text": "Veniam et tempor eu tempor eu tempor quis quis cupidatat anim mollit nostrud. Ullamco elit laborum incididunt veniam laboris dolore. Fugiat non reprehenderit est dolor incididunt mollit.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "Field1": [
+                  {
+                    "type": "paragraph",
+                    "text": "Et officia exercitation qui adipisicing ut ullamco do sit aliqua consectetur amet.",
+                    "spans": []
+                  }
+                ],
+                "Field2": [
+                  {
+                    "type": "paragraph",
+                    "text": "Quis ex cillum ad nostrud ullamco irure incididunt magna mollit et.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "Field1": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nostrud elit deserunt dolor Lorem aute commodo id enim ullamco. Consectetur non nisi anim consequat aliquip exercitation pariatur.",
+                    "spans": []
+                  }
+                ],
+                "Field2": [
+                  {
+                    "type": "paragraph",
+                    "text": "Do Lorem non fugiat dolore. Tempor culpa Lorem dolore officia duis ad est nulla consequat nulla sunt. Aute nisi incididunt anim dolor do consectetur aliqua ullamco ut quis commodo.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading1",
+                  "text": "Morph proactive technologies",
+                  "spans": []
+                }
+              ],
+              "description": [
+                {
+                  "type": "paragraph",
+                  "text": "Irure eiusmod veniam ut. Excepteur ipsum consequat id ad ut non. Enim id adipisicing amet aliqua ullamco voluptate minim ex.",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "tsx"
+        },
+        "screenshotPaths": {}
+      },
       "margar_myndir": {
         "library": "slices",
         "id": "margar_myndir",
@@ -211,7 +349,7 @@
                     "label": "Image Text",
                     "placeholder": "",
                     "allowTargetBlank": true,
-                    "multi": "paragraph,strong,em,heading2,heading4,heading3"
+                    "multi": "paragraph,heading2,heading3,heading4,strong,em,hyperlink"
                   }
                 },
                 "position": {
@@ -290,7 +428,7 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=900&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
               }
             }
           },
@@ -307,12 +445,12 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=1000&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=1000&h=500&fit=crop"
               },
               "imageText": [
                 {
                   "type": "paragraph",
-                  "text": "Laboris veniam sint quis. Labore culpa qui elit eiusmod minim eiusmod in.",
+                  "text": "Labore ut minim laborum laboris commodo ad. Et officia veniam consectetur. Magna culpa amet in sint consequat.",
                   "spans": []
                 }
               ],
@@ -332,17 +470,17 @@
                 },
                 "alt": "Placeholder image",
                 "copyright": null,
-                "url": "https://images.unsplash.com/photo-1591012911207-0dbac31f37da?w=1000&h=500&fit=crop"
+                "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?w=1000&h=500&fit=crop"
               },
               "imageText": [
                 {
                   "type": "paragraph",
-                  "text": "Excepteur consequat consequat eiusmod nisi elit nulla. Tempor tempor consequat esse dolor amet non. Non labore sunt veniam Lorem nulla voluptate ullamco amet.",
+                  "text": "In irure est reprehenderit proident ullamco eu ad voluptate in sint anim enim nisi quis. Anim labore id adipisicing.",
                   "spans": []
                 }
               ],
-              "position": true,
-              "link": "reinvent cross-media synergies"
+              "position": false,
+              "link": "aggregate plug-and-play ROI"
             }
           }
         },
@@ -358,6 +496,11 @@
           },
           "myndMedTexta": {
             "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTexta\\preview.png",
+            "width": 800,
+            "height": 285
+          },
+          "myndMedTextaOgLink": {
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTextaOgLink\\preview.png",
             "width": 800,
             "height": 285
           }

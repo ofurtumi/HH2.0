@@ -75,7 +75,32 @@
       "default": {
         "primary": {}
       }
-    }
+    },
+    "Form": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          },
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {}
+      }
+    },
+    "FormSection": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "IndexForm": {}
   },
   "_cts": {
     "index": {},

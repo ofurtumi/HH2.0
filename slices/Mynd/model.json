@@ -47,7 +47,7 @@
             "label": "Image Text",
             "placeholder": "",
             "allowTargetBlank": true,
-            "multi": "paragraph,strong,em,heading2,heading4,heading3"
+            "multi": "paragraph,heading2,heading3,heading4,strong,em,hyperlink"
           }
         },
         "position": {
