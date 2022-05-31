@@ -5,7 +5,7 @@
   justify-content: center;
 }
 
-.garden > *{
+.garden > * {
   padding: 0 1em;
 }
 
@@ -18,7 +18,8 @@
   width: 100%;
 }
 
-.formPrison, .formCell {
+.formPrison,
+.formCell {
   gap: 0.5em;
   display: flex;
   flex-direction: column;
@@ -30,7 +31,9 @@
   display: none;
 }
 
-.formCell input, .formCell textarea, .formPrison button {
+.formCell input,
+.formCell textarea,
+.formPrison button {
   width: 100%;
   padding: 0.5em;
   box-shadow: 3px 3px 3px #000;
@@ -48,7 +51,7 @@
   font-weight: bold;
 }
 
-@media only screen and (min-width:750px) {
+@media only screen and (min-width: 750px) {
   .garden {
     display: grid;
     grid-template-columns: 5fr 1fr;
@@ -56,6 +59,6 @@
   }
 
   .formPrison {
-height: 100%;
+    height: 100%;
   }
 }
