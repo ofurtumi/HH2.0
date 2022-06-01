@@ -41,7 +41,7 @@ const Home = ({ slices, events }: { slices: any; events: any }) => {
     
 
     // alert(content.data.tableRange)
-    // console.log("content --> ", content);
+    console.log("content --> ", content);
   };
 
   const today = Date.now();
