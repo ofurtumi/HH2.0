@@ -21,6 +21,7 @@ export default async function handler(
   try {
     // * auðkenning undirbúin
     const { privateKey } = JSON.parse(process.env.GOOGLE_PRIVATE_KEY ?? "");
+    // ? privateKey skilgreint sem JSON til að reyna fá það til að virka í prod
 
     const auth = new google.auth.GoogleAuth({
       credentials: {
