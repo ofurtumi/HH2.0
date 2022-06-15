@@ -98,3 +98,21 @@ skipting yfir í nýju síðuna á að verða tiltölulega seamless
 - [x] embedded video slice
 - [x] myndbandaslice
 - [x] margar myndir slice **ATH: það er "komið" má kíkja betur á seinna**
+
+
+# IM BACK BABY
+---
+
+kom heim í dag frá prima, endurnærður og til í þetta   
+**hér er listi yfir hluti sem þarf að klára fyrir prod**  
+*mjög mikið stiklað á stóru*
+1. færa gögn yfir af gömlu síðunni, aðalega fréttir og viðburði
+2. færa kóðann frá mínum host account á vercel yfir á tæknistjóri account
+3. færa prismic aðganginn yfir á tæknistjóri account
+
+**hlutir sem mega bíða eftir prod**
+1. smávæginlegar fínpússanir
+   1. matseðlar flottari
+   2. samstarfsverkefni port
+   3. heimsmarkmið port
+   4. linkar þannig hægt sé að bæta við og færa án mín 
