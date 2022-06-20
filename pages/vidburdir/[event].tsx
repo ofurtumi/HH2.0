@@ -13,7 +13,7 @@ const Test = ({ data }: { data: any }) => {
         alt={data.image.alt ?? "hér gleymdist að setja alt texta :/"}
       />
       <div className={styles.ticketsAndTime}>
-        <div>
+        <div style={!data.link.url ? {gridColumn: "span 2"} : {gridColumn: "1"}}>
           <h2>{data.dates.length > 1 ? "Dagsetningar:" : "Dagsetning:"}</h2>
           <ul className={styles.times}>
             {data.dates.map(({ date }: { date: string }, i: number) => {
