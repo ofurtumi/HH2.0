@@ -33,7 +33,9 @@ const AllNews = ({ data }: { data: any }) => {
 
 export async function getServerSideProps() {
   const client = createClient({}); // sama functionality og í öllum hinum
-  const data = await client.getAllByType("news");
+  const data = await client.getAllByType("news", {
+    orderings: { field: "my.news.date", direction: "desc" },
+  });
 
   return { props: { data } };
 }
