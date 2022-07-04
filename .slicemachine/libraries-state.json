@@ -205,6 +205,332 @@
         },
         "screenshotPaths": {}
       },
+      "listi": {
+        "library": "slices",
+        "id": "listi",
+        "name": "Listi",
+        "description": "Listi",
+        "model": {
+          "id": "listi",
+          "type": "SharedSlice",
+          "name": "Listi",
+          "description": "Listi",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Listi",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Yfirtitill",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                }
+              },
+              "items": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Undirtitill",
+                    "placeholder": "Undirtitill",
+                    "allowTargetBlank": true,
+                    "single": "heading4"
+                  }
+                },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Efni",
+                    "placeholder": "Efni",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,em,hyperlink"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "time",
+              "name": "Listi með dagsetningu",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Listi",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Yfirtitill",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                }
+              },
+              "items": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Undirtitill",
+                    "placeholder": "Undirtitill",
+                    "allowTargetBlank": true,
+                    "single": "heading4"
+                  }
+                },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Efni",
+                    "placeholder": "Efni",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,em,hyperlink"
+                  }
+                },
+                "date": {
+                  "type": "Date",
+                  "config": {
+                    "label": "Dagsetning",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "listi",
+            "items": [
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "E-enable sexy mindshare",
+                    "spans": []
+                  }
+                ],
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Occaecat eu dolore veniam et ad occaecat.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Benchmark global infomediaries",
+                    "spans": []
+                  }
+                ],
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Voluptate elit officia ipsum dolore commodo ut. Duis culpa proident occaecat veniam nisi et anim est non est.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Morph out-of-the-box technologies",
+                    "spans": []
+                  }
+                ],
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Aliquip nisi ut nulla veniam consequat anim ipsum amet.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Cultivate transparent ROI",
+                    "spans": []
+                  }
+                ],
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Irure elit sit sit cillum amet enim aliqua ea pariatur sint Lorem excepteur deserunt ad. Labore labore enim incididunt quis adipisicing cillum proident Lorem aliquip fugiat incididunt deserunt nostrud non esse.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Mesh sticky deliverables",
+                    "spans": []
+                  }
+                ],
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Proident officia cupidatat mollit voluptate ex.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Transition strategic interfaces",
+                  "spans": []
+                }
+              ]
+            }
+          },
+          "time": {
+            "variation": "time",
+            "name": "Listi með dagsetningu",
+            "slice_type": "listi",
+            "items": [
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Implement revolutionary eyeballs",
+                    "spans": []
+                  }
+                ],
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Eiusmod exercitation eiusmod qui officia exercitation nulla adipisicing consequat ut nisi. Minim ipsum velit sit velit consequat cillum sint et do velit incididunt ex ullamco tempor. Deserunt id culpa consectetur eiusmod esse nulla amet occaecat minim nostrud deserunt quis tempor consequat ea.",
+                    "spans": []
+                  }
+                ],
+                "date": "2017-04-06"
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Maximize interactive models",
+                    "spans": []
+                  }
+                ],
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Esse voluptate laborum reprehenderit id. Cupidatat id labore minim.",
+                    "spans": []
+                  }
+                ],
+                "date": "2015-12-15"
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Iterate virtual mindshare",
+                    "spans": []
+                  }
+                ],
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Sint aute ipsum in pariatur aute cupidatat labore nisi ullamco est voluptate ad eiusmod aute labore.",
+                    "spans": []
+                  }
+                ],
+                "date": "2020-02-05"
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Engineer revolutionary metrics",
+                    "spans": []
+                  }
+                ],
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Quis qui adipisicing deserunt irure quis do. Pariatur occaecat commodo tempor. Sunt consequat laboris labore nostrud excepteur ut do.",
+                    "spans": []
+                  }
+                ],
+                "date": "2019-02-26"
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Deploy interactive communities",
+                    "spans": []
+                  }
+                ],
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Qui fugiat pariatur aliqua nostrud consectetur deserunt voluptate nisi proident sit labore nostrud.",
+                    "spans": []
+                  }
+                ],
+                "date": "2015-07-30"
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Drive rich web services",
+                    "spans": []
+                  }
+                ],
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Amet ea laborum elit nisi cupidatat culpa ipsum veniam.",
+                    "spans": []
+                  }
+                ],
+                "date": "2015-09-06"
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Visualize 24/7 platforms",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "tsx"
+        },
+        "screenshotPaths": {
+          "default": {
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Listi\\default\\preview.png",
+            "width": 800,
+            "height": 157
+          }
+        }
+      },
       "margar_myndir": {
         "library": "slices",
         "id": "margar_myndir",

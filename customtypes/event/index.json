@@ -82,6 +82,9 @@
             },
             "texti": {
               "type": "SharedSlice"
+            },
+            "listi": {
+              "type": "SharedSlice"
             }
           }
         }

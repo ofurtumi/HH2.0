@@ -76,6 +76,10 @@
   height: 100%;
 }
 
+.listPrison {
+  padding: 1em;
+}
+
 @media only screen and (min-width: 700px) {
   .imgPrison {
     display: grid;

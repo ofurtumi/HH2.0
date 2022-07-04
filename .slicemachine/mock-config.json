@@ -100,7 +100,36 @@
         "primary": {}
       }
     },
-    "IndexForm": {}
+    "IndexForm": {},
+    "Listi": {
+      "default": {
+        "primary": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "title": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 3
+            }
+          },
+          "content": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 3
+            }
+          }
+        }
+      },
+      "time": {
+        "items": {}
+      }
+    }
   },
   "_cts": {
     "index": {},

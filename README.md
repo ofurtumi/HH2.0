@@ -106,7 +106,7 @@ skipting yfir í nýju síðuna á að verða tiltölulega seamless
 kom heim í dag frá prima, endurnærður og til í þetta   
 **hér er listi yfir hluti sem þarf að klára fyrir prod**  
 *mjög mikið stiklað á stóru*
-1. færa gögn yfir af gömlu síðunni, aðalega fréttir og viðburði
+1. færa gögn yfir af gömlu síðunni, aðalega fréttir og viðburði - næstum komið
 2. færa kóðann frá mínum host account á vercel yfir á tæknistjóri account
 3. færa prismic aðganginn yfir á tæknistjóri account
 
