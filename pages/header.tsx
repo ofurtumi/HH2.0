@@ -19,7 +19,7 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link passHref href="/vidburdir">
+              <Link passHref href="/vidburdir/1">
                 Viðburðir
               </Link>
             </li>

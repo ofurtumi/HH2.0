@@ -2,11 +2,11 @@
 
 import Embedded from './Embedded';
 import IndexForm from './IndexForm';
-import Listi from './Listi';
 import MargarMyndir from './MargarMyndir';
 import Mynd from './Mynd';
 import Texti from './Texti';
 import Titill from './Titill';
+import Listi from './Listi';
 
 export {
 	Embedded,

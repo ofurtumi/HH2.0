@@ -1,8 +1,8 @@
 import { GetStaticPaths } from "next";
-import { createClient } from "../../prismicio.js";
-import { HHEvent } from "../../types.js";
+import { createClient } from "../../../prismicio.js";
+import { HHEvent } from "../../../types.js";
 import { PrismicLink, PrismicRichText } from "@prismicio/react";
-import styles from "../../styles/Event.module.css";
+import styles from "../../../styles/Event.module.css";
 
 const Test = ({ data }: { data: any }) => {
   return (

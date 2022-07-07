@@ -78,6 +78,40 @@
 
 .listPrison {
   padding: 1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 75%;
+  margin: 0 auto;
+  gap: 0.5em;
+}
+
+.listPrison h2 {
+  grid-column: span 2;
+  text-align: center;
+  width: 100%;
+}
+
+.listCell {
+  padding: 0.5em;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+
+.listCell p {
+  margin: 0.5em;
+  height: 100%;
+  word-wrap: break-word;
+  word-break: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listCell p:nth-child(1) {
+  padding-right: 0.5em;
+  border-right: 1px solid black;
 }
 
 @media only screen and (min-width: 700px) {

@@ -70,6 +70,15 @@
             "single": "heading4"
           }
         },
+        "isContent": {
+          "type": "Boolean",
+          "config": {
+            "label": "Opnanlegt",
+            "placeholder_false": "Nei",
+            "placeholder_true": "Já",
+            "default_value": false
+          }
+        },
         "content": {
           "type": "StructuredText",
           "config": {

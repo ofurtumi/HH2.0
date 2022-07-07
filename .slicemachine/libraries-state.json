@@ -61,7 +61,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Embedded\\default\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\Embedded\\default\\preview.png",
             "width": 800,
             "height": 126
           }
@@ -282,6 +282,15 @@
                     "single": "heading4"
                   }
                 },
+                "isContent": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Opnanlegt",
+                    "placeholder_false": "Nei",
+                    "placeholder_true": "Já",
+                    "default_value": false
+                  }
+                },
                 "content": {
                   "type": "StructuredText",
                   "config": {
@@ -313,14 +322,14 @@
                 "title": [
                   {
                     "type": "heading4",
-                    "text": "E-enable sexy mindshare",
+                    "text": "Drive web-enabled deliverables",
                     "spans": []
                   }
                 ],
                 "content": [
                   {
                     "type": "paragraph",
-                    "text": "Occaecat eu dolore veniam et ad occaecat.",
+                    "text": "Adipisicing reprehenderit sunt excepteur irure sit ullamco do sint sit. Nulla anim magna nostrud Lorem reprehenderit sint laboris.",
                     "spans": []
                   }
                 ]
@@ -329,14 +338,14 @@
                 "title": [
                   {
                     "type": "heading4",
-                    "text": "Benchmark global infomediaries",
+                    "text": "Deliver innovative networks",
                     "spans": []
                   }
                 ],
                 "content": [
                   {
                     "type": "paragraph",
-                    "text": "Voluptate elit officia ipsum dolore commodo ut. Duis culpa proident occaecat veniam nisi et anim est non est.",
+                    "text": "Proident culpa cillum commodo pariatur duis enim deserunt excepteur exercitation enim sit aliquip.",
                     "spans": []
                   }
                 ]
@@ -345,14 +354,14 @@
                 "title": [
                   {
                     "type": "heading4",
-                    "text": "Morph out-of-the-box technologies",
+                    "text": "Engage open-source initiatives",
                     "spans": []
                   }
                 ],
                 "content": [
                   {
                     "type": "paragraph",
-                    "text": "Aliquip nisi ut nulla veniam consequat anim ipsum amet.",
+                    "text": "Ad commodo nisi cillum anim dolore exercitation duis enim. Irure amet aliqua incididunt reprehenderit sint in eu cupidatat labore.",
                     "spans": []
                   }
                 ]
@@ -361,14 +370,14 @@
                 "title": [
                   {
                     "type": "heading4",
-                    "text": "Cultivate transparent ROI",
+                    "text": "Unleash 24/365 niches",
                     "spans": []
                   }
                 ],
                 "content": [
                   {
                     "type": "paragraph",
-                    "text": "Irure elit sit sit cillum amet enim aliqua ea pariatur sint Lorem excepteur deserunt ad. Labore labore enim incididunt quis adipisicing cillum proident Lorem aliquip fugiat incididunt deserunt nostrud non esse.",
+                    "text": "Laboris nulla proident nulla eu et aute pariatur magna. Ut elit nisi excepteur irure et duis tempor eu. Eu laborum veniam est mollit laboris fugiat laborum sint Lorem dolore ea labore ad.",
                     "spans": []
                   }
                 ]
@@ -377,14 +386,14 @@
                 "title": [
                   {
                     "type": "heading4",
-                    "text": "Mesh sticky deliverables",
+                    "text": "Synthesize compelling mindshare",
                     "spans": []
                   }
                 ],
                 "content": [
                   {
                     "type": "paragraph",
-                    "text": "Proident officia cupidatat mollit voluptate ex.",
+                    "text": "Ex quis anim irure ullamco cillum minim dolor ea commodo. Cillum veniam aute reprehenderit consectetur qui est dolor nulla do aliquip commodo occaecat.",
                     "spans": []
                   }
                 ]
@@ -394,7 +403,7 @@
               "title": [
                 {
                   "type": "heading2",
-                  "text": "Transition strategic interfaces",
+                  "text": "Matrix efficient channels",
                   "spans": []
                 }
               ]
@@ -409,110 +418,62 @@
                 "title": [
                   {
                     "type": "heading4",
-                    "text": "Implement revolutionary eyeballs",
+                    "text": "Syndicate out-of-the-box experiences",
                     "spans": []
                   }
                 ],
+                "isContent": true,
                 "content": [
                   {
                     "type": "paragraph",
-                    "text": "Eiusmod exercitation eiusmod qui officia exercitation nulla adipisicing consequat ut nisi. Minim ipsum velit sit velit consequat cillum sint et do velit incididunt ex ullamco tempor. Deserunt id culpa consectetur eiusmod esse nulla amet occaecat minim nostrud deserunt quis tempor consequat ea.",
+                    "text": "Laboris ut non consectetur ut veniam amet aute in occaecat elit. Consequat tempor sit cillum tempor sit adipisicing ex nostrud non ut sunt occaecat. Sunt ea officia ex et duis in enim enim qui ut tempor do anim labore.",
                     "spans": []
                   }
                 ],
-                "date": "2017-04-06"
+                "date": "2018-04-25"
               },
               {
                 "title": [
                   {
                     "type": "heading4",
-                    "text": "Maximize interactive models",
+                    "text": "Incentivize impactful niches",
                     "spans": []
                   }
                 ],
+                "isContent": false,
                 "content": [
                   {
                     "type": "paragraph",
-                    "text": "Esse voluptate laborum reprehenderit id. Cupidatat id labore minim.",
+                    "text": "Quis elit do Lorem dolore.",
                     "spans": []
                   }
                 ],
-                "date": "2015-12-15"
+                "date": "2012-10-03"
               },
               {
                 "title": [
                   {
                     "type": "heading4",
-                    "text": "Iterate virtual mindshare",
+                    "text": "Morph synergistic convergence",
                     "spans": []
                   }
                 ],
+                "isContent": true,
                 "content": [
                   {
                     "type": "paragraph",
-                    "text": "Sint aute ipsum in pariatur aute cupidatat labore nisi ullamco est voluptate ad eiusmod aute labore.",
+                    "text": "Nulla est ad culpa aute amet do pariatur magna minim eu in sit.",
                     "spans": []
                   }
                 ],
-                "date": "2020-02-05"
-              },
-              {
-                "title": [
-                  {
-                    "type": "heading4",
-                    "text": "Engineer revolutionary metrics",
-                    "spans": []
-                  }
-                ],
-                "content": [
-                  {
-                    "type": "paragraph",
-                    "text": "Quis qui adipisicing deserunt irure quis do. Pariatur occaecat commodo tempor. Sunt consequat laboris labore nostrud excepteur ut do.",
-                    "spans": []
-                  }
-                ],
-                "date": "2019-02-26"
-              },
-              {
-                "title": [
-                  {
-                    "type": "heading4",
-                    "text": "Deploy interactive communities",
-                    "spans": []
-                  }
-                ],
-                "content": [
-                  {
-                    "type": "paragraph",
-                    "text": "Qui fugiat pariatur aliqua nostrud consectetur deserunt voluptate nisi proident sit labore nostrud.",
-                    "spans": []
-                  }
-                ],
-                "date": "2015-07-30"
-              },
-              {
-                "title": [
-                  {
-                    "type": "heading4",
-                    "text": "Drive rich web services",
-                    "spans": []
-                  }
-                ],
-                "content": [
-                  {
-                    "type": "paragraph",
-                    "text": "Amet ea laborum elit nisi cupidatat culpa ipsum veniam.",
-                    "spans": []
-                  }
-                ],
-                "date": "2015-09-06"
+                "date": "2016-12-30"
               }
             ],
             "primary": {
               "title": [
                 {
                   "type": "heading2",
-                  "text": "Visualize 24/7 platforms",
+                  "text": "Visualize intuitive networks",
                   "spans": []
                 }
               ]
@@ -523,13 +484,7 @@
           "fileName": "index",
           "extension": "tsx"
         },
-        "screenshotPaths": {
-          "default": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Listi\\default\\preview.png",
-            "width": 800,
-            "height": 157
-          }
-        }
+        "screenshotPaths": {}
       },
       "margar_myndir": {
         "library": "slices",
@@ -615,7 +570,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\MargarMyndir\\default\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\MargarMyndir\\default\\preview.png",
             "width": 800,
             "height": 436
           }
@@ -816,17 +771,17 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\default\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\Mynd\\default\\preview.png",
             "width": 800,
             "height": 459
           },
           "myndMedTexta": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTexta\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTexta\\preview.png",
             "width": 800,
             "height": 285
           },
           "myndMedTextaOgLink": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTextaOgLink\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTextaOgLink\\preview.png",
             "width": 800,
             "height": 285
           }
@@ -1017,7 +972,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Titill\\default\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\Titill\\default\\preview.png",
             "width": 800,
             "height": 72
           }

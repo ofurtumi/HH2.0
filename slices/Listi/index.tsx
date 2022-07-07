@@ -12,44 +12,60 @@ const Listi = ({ slice }: { slice: any }) => {
         <div className={styles.listPrison}>
           <PrismicRichText field={slice.primary.title} />
           {slice.items.map((item: any, i: number) => {
-            return (
-              <details>
-                <summary>
+            if (item.isContent) {
+              return (
+                <details key={i}>
+                  <summary>
                     {/* <PrismicRichText field={item.title} /> */}
                     {asText(item.title)}
-                </summary>
-                <p>
-                  <PrismicRichText field={item.content} />
-                </p>
-              </details>
-            );
+                  </summary>
+                  <p>
+                    <PrismicRichText field={item.content} />
+                  </p>
+                </details>
+              );
+            } else {
+              return <p key={i}>{asText(item.title)}</p>;
+            }
           })}
         </div>
       );
 
-      case "time": 
+    case "time":
       return (
         <div className={styles.listPrison}>
           <PrismicRichText field={slice.primary.title} />
           {slice.items.map((item: any, i: number) => {
-            return (
-              <details>
-                <summary>
+            let dagur = new Date(item.date).toUTCString().substring(5,16)
+            console.log('dagur --> ', dagur)
+            if (item.isContent) {
+              return (
+                <details key={i}>
+                  <summary>
                     {/* <PrismicRichText field={item.title} /> */}
                     {asText(item.title)}
-                </summary>
-                <p>{item.date}</p>
-                <p>
-                  <PrismicRichText field={item.content} />
-                </p>
-              </details>
-            );
+                  </summary>
+                  <p>{dagur}</p>
+                  <p>
+                    <PrismicRichText field={item.content} />
+                  </p>
+                </details>
+              );
+            } else {
+              return (
+                <div className={styles.listCell} key={i}>
+                  <p>{asText(item.title)}</p><p>{dagur}</p>
+                </div>
+              );
+            }
           })}
         </div>
       );
 
     default:
-      break;
+      return (
+        <p>ass</p>
+      )
   }
 };
 
