@@ -23,13 +23,10 @@ export async function getServerSideProps({
   params: any;
   previewData: any;
 }) {
-  // ! átt eftir að bæta við röðun stupid
-  // * ekki lengur bithc
   const client = createClient(); // býr til client
   const numEvents = await client.getByType('event');
   const events = await client.getAllByTag("yfirlit"); // notar client til að sækja allar upplýsingar, raðar eftir dagsetningu viðburðar, nýjastir efst
   // todo: bæta við paging? held það þurfi þegar komnir eru yfir 100 viðburðir
-  console.log("events --> ", events);
   return { props: { events: events, num: numEvents.total_pages } };
 }
 
