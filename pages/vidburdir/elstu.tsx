@@ -1,7 +1,6 @@
-import { SliceZone } from "@prismicio/react";
 import Link from "next/link";
-import { createClient } from "../../prismicio";
-import { components } from "../../slices";
+import { promises as fs } from 'fs';
+import path from 'path'
 import styles from "../../styles/Events.module.css";
 import sliceStyles from "../../styles/Slices.module.css";
 
@@ -22,7 +21,7 @@ const Elstu = ({ events }: { events: Array<Vidburdur> }) => {
       >
         {events.map((ev, i) => {
           let d = new Date(ev.start * 1000);
-          if (d.getFullYear() > 2019) return
+          if (d.getFullYear() > 2019) return null
           if (d.getFullYear() !== lastDate) {
             lastDate = d.getFullYear();
             return (
@@ -88,15 +87,17 @@ const Elstu = ({ events }: { events: Array<Vidburdur> }) => {
 // }
 
 export async function getStaticProps() {
-  const old = await fetch("http://localhost:3000/elstu_vidburdir.json");
-  let data = await old.json();
+  // const old = await fetch("http://localhost:3000/elstu_vidburdir.json");
+  const filePath = path.join(process.cwd(), 'public/elstu_vidburdir.json')
+  const old = await fs.readFile(filePath)
+  let data = await JSON.parse(old.toString());
   data.map((x: Vidburdur) => {
     let temp = new Date(x.start);
     x.start = Math.floor(temp.getTime() / 1000);
     return x;
   });
   data = data.sort((a: Vidburdur, b: Vidburdur) => b.start - a.start);
-  console.log("data --> ", data);
+  // console.log("data --> ", data);
   return { props: { events: data } };
 }
 
