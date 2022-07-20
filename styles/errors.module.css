@@ -27,3 +27,9 @@
 .prison a:focus-visible {
     text-decoration: underline gray;
 }
+
+@media only screen and (min-width: 1200px) {
+    .prison {
+        margin: 1em auto;
+    }
+}
