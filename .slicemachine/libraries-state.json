@@ -61,7 +61,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Embedded\\default\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\Embedded\\default\\preview.png",
             "width": 800,
             "height": 126
           }
@@ -205,6 +205,287 @@
         },
         "screenshotPaths": {}
       },
+      "listi": {
+        "library": "slices",
+        "id": "listi",
+        "name": "Listi",
+        "description": "Listi",
+        "model": {
+          "id": "listi",
+          "type": "SharedSlice",
+          "name": "Listi",
+          "description": "Listi",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Listi",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Yfirtitill",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                }
+              },
+              "items": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Undirtitill",
+                    "placeholder": "Undirtitill",
+                    "allowTargetBlank": true,
+                    "single": "heading4"
+                  }
+                },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Efni",
+                    "placeholder": "Efni",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,em,hyperlink"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "time",
+              "name": "Listi með dagsetningu",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Listi",
+              "primary": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Yfirtitill",
+                    "placeholder": "This is where it all begins...",
+                    "allowTargetBlank": true,
+                    "single": "heading2"
+                  }
+                }
+              },
+              "items": {
+                "title": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Undirtitill",
+                    "placeholder": "Undirtitill",
+                    "allowTargetBlank": true,
+                    "single": "heading4"
+                  }
+                },
+                "isContent": {
+                  "type": "Boolean",
+                  "config": {
+                    "label": "Opnanlegt",
+                    "placeholder_false": "Nei",
+                    "placeholder_true": "Já",
+                    "default_value": false
+                  }
+                },
+                "content": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "Efni",
+                    "placeholder": "Efni",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,strong,em,hyperlink"
+                  }
+                },
+                "date": {
+                  "type": "Date",
+                  "config": {
+                    "label": "Dagsetning",
+                    "placeholder": ""
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "listi",
+            "items": [
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Drive web-enabled deliverables",
+                    "spans": []
+                  }
+                ],
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Adipisicing reprehenderit sunt excepteur irure sit ullamco do sint sit. Nulla anim magna nostrud Lorem reprehenderit sint laboris.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Deliver innovative networks",
+                    "spans": []
+                  }
+                ],
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Proident culpa cillum commodo pariatur duis enim deserunt excepteur exercitation enim sit aliquip.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Engage open-source initiatives",
+                    "spans": []
+                  }
+                ],
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ad commodo nisi cillum anim dolore exercitation duis enim. Irure amet aliqua incididunt reprehenderit sint in eu cupidatat labore.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Unleash 24/365 niches",
+                    "spans": []
+                  }
+                ],
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Laboris nulla proident nulla eu et aute pariatur magna. Ut elit nisi excepteur irure et duis tempor eu. Eu laborum veniam est mollit laboris fugiat laborum sint Lorem dolore ea labore ad.",
+                    "spans": []
+                  }
+                ]
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Synthesize compelling mindshare",
+                    "spans": []
+                  }
+                ],
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Ex quis anim irure ullamco cillum minim dolor ea commodo. Cillum veniam aute reprehenderit consectetur qui est dolor nulla do aliquip commodo occaecat.",
+                    "spans": []
+                  }
+                ]
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Matrix efficient channels",
+                  "spans": []
+                }
+              ]
+            }
+          },
+          "time": {
+            "variation": "time",
+            "name": "Listi með dagsetningu",
+            "slice_type": "listi",
+            "items": [
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Syndicate out-of-the-box experiences",
+                    "spans": []
+                  }
+                ],
+                "isContent": true,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Laboris ut non consectetur ut veniam amet aute in occaecat elit. Consequat tempor sit cillum tempor sit adipisicing ex nostrud non ut sunt occaecat. Sunt ea officia ex et duis in enim enim qui ut tempor do anim labore.",
+                    "spans": []
+                  }
+                ],
+                "date": "2018-04-25"
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Incentivize impactful niches",
+                    "spans": []
+                  }
+                ],
+                "isContent": false,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Quis elit do Lorem dolore.",
+                    "spans": []
+                  }
+                ],
+                "date": "2012-10-03"
+              },
+              {
+                "title": [
+                  {
+                    "type": "heading4",
+                    "text": "Morph synergistic convergence",
+                    "spans": []
+                  }
+                ],
+                "isContent": true,
+                "content": [
+                  {
+                    "type": "paragraph",
+                    "text": "Nulla est ad culpa aute amet do pariatur magna minim eu in sit.",
+                    "spans": []
+                  }
+                ],
+                "date": "2016-12-30"
+              }
+            ],
+            "primary": {
+              "title": [
+                {
+                  "type": "heading2",
+                  "text": "Visualize intuitive networks",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "tsx"
+        },
+        "screenshotPaths": {}
+      },
       "margar_myndir": {
         "library": "slices",
         "id": "margar_myndir",
@@ -289,7 +570,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\MargarMyndir\\default\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\MargarMyndir\\default\\preview.png",
             "width": 800,
             "height": 436
           }
@@ -490,17 +771,17 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\default\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\Mynd\\default\\preview.png",
             "width": 800,
             "height": 459
           },
           "myndMedTexta": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTexta\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTexta\\preview.png",
             "width": 800,
             "height": 285
           },
           "myndMedTextaOgLink": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTextaOgLink\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTextaOgLink\\preview.png",
             "width": 800,
             "height": 285
           }
@@ -691,7 +972,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Titill\\default\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\Titill\\default\\preview.png",
             "width": 800,
             "height": 72
           }

@@ -1,0 +1,102 @@
+{
+  "id": "listi",
+  "type": "SharedSlice",
+  "name": "Listi",
+  "description": "Listi",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Listi",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Yfirtitill",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        }
+      },
+      "items": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Undirtitill",
+            "placeholder": "Undirtitill",
+            "allowTargetBlank": true,
+            "single": "heading4"
+          }
+        },
+        "content": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Efni",
+            "placeholder": "Efni",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    },
+    {
+      "id": "time",
+      "name": "Listi með dagsetningu",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Listi",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Yfirtitill",
+            "placeholder": "This is where it all begins...",
+            "allowTargetBlank": true,
+            "single": "heading2"
+          }
+        }
+      },
+      "items": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Undirtitill",
+            "placeholder": "Undirtitill",
+            "allowTargetBlank": true,
+            "single": "heading4"
+          }
+        },
+        "isContent": {
+          "type": "Boolean",
+          "config": {
+            "label": "Opnanlegt",
+            "placeholder_false": "Nei",
+            "placeholder_true": "Já",
+            "default_value": false
+          }
+        },
+        "content": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Efni",
+            "placeholder": "Efni",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "date": {
+          "type": "Date",
+          "config": {
+            "label": "Dagsetning",
+            "placeholder": ""
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

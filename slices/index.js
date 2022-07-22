@@ -6,10 +6,12 @@ import MargarMyndir from './MargarMyndir';
 import Mynd from './Mynd';
 import Texti from './Texti';
 import Titill from './Titill';
+import Listi from './Listi';
 
 export {
 	Embedded,
 	IndexForm,
+	Listi,
 	MargarMyndir,
 	Mynd,
 	Texti,
@@ -19,6 +21,7 @@ export {
 export const components = {
 	embedded: Embedded,
 	index_form: IndexForm,
+	listi: Listi,
 	margar_myndir: MargarMyndir,
 	mynd: Mynd,
 	texti: Texti,

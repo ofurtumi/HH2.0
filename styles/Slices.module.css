@@ -76,6 +76,26 @@
   height: 100%;
 }
 
+.listPrison {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.listCell {
+  padding: 0.5em;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+}
+
+.listCell p:nth-child(2) {
+  order: 1;
+}
+.listCell p:nth-child(1) {
+  order: 2;
+}
+
 @media only screen and (min-width: 700px) {
   .imgPrison {
     display: grid;
@@ -94,4 +114,32 @@
   .multiImagePrison {
     grid-template-columns: repeat(auto-fit, minmax(100px, 280px));
   }
+
+  .listPrison {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 75%;
+    margin: 0 auto;
+    gap: 0.5em;
+  }
+  
+  .listPrison h2 {
+    grid-column: span 3;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .listCell {
+    border: none;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+  }
+  
+  /* .listCell p:nth-child(1) {
+    padding-right: 0.5em;
+    border-right: 1px solid black;
+  } */
 }

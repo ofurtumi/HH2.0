@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className={styles.prison}>
       <Link href={'/'}><img src="/imgs/footer_logo.png" alt="Hannesarholts merkið" className={styles.logo} /></Link>
-      <p>| Hannersarholt | +(354) 511 1904 | hannesarholt@hannesarholt.is</p>
+      <p>Hannersarholt | +(354) 511 1904 | hannesarholt@hannesarholt.is</p>
       <div>
         <ul>
           <li><Link passHref href="https://www.facebook.com/hannesarholt"><img src="/svg/facebook.svg" alt="Facebook" /></Link></li>
