@@ -6,11 +6,13 @@ import { linkResolver, repositoryName } from '../prismicio.js';
 import Link from 'next/link';
 import Header from './header';
 import Footer from './footer';
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<>
 			<Header />
+			<Head><title>Hannesarholt</title></Head>
 			<PrismicProvider
 				linkResolver={linkResolver}
 				internalLinkComponent={({ href, children, ...props }) => (

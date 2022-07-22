@@ -21,7 +21,7 @@ const Elstu = ({ events }: { events: Array<Vidburdur> }) => {
       >
         {events.map((ev, i) => {
           let d = new Date(ev.start * 1000);
-          if (d.getFullYear() > 2019) return null
+          if (d.getFullYear() > 2019) return;
           if (d.getFullYear() !== lastDate) {
             lastDate = d.getFullYear();
             return (
