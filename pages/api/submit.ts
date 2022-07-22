@@ -44,10 +44,10 @@ export default async function handler(
 
     const response = await sheets.spreadsheets.values.append({
       spreadsheetId: process.env.GOOGLE_SHEET_ID,
-      range: "B1:D1",
+      range: "A1:C1",
       valueInputOption: "USER_ENTERED",
       requestBody: {
-        values: [[body.name, body.message, body.time]],
+        values: [[body.time, body.name, body.message]],
       },
     });
 
