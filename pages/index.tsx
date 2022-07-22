@@ -20,7 +20,9 @@ const Home = ({ slices, events }: { slices: any; events: any }) => {
     setSent(true)
 
     // * skilgreining á data strúktúr, sjúklega flókin ég veit
+    const time = Date.now()
     const data = {
+      time,
       name,
       message,
     };

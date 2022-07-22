@@ -2,6 +2,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 import { google } from "googleapis";
 
 type HHLifi = {
+  time: number;
   name: string;
   message: string;
 };
@@ -43,10 +44,10 @@ export default async function handler(
 
     const response = await sheets.spreadsheets.values.append({
       spreadsheetId: process.env.GOOGLE_SHEET_ID,
-      range: "A1:B1",
+      range: "A1:C1",
       valueInputOption: "USER_ENTERED",
       requestBody: {
-        values: [[body.name, body.message]],
+        values: [[body.time, body.name, body.message]],
       },
     });
 
