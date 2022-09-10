@@ -1,8 +1,25 @@
 .prison h1 {
     margin: 0;
     margin-left: 1em;
+    text-align: center;
+}
+
+.easeOfMenu {
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+}
+
+.easeOfMenu li {
+    text-decoration: underline white 1px;
+}
+
+.easeOfMenu li:hover {
+    text-decoration-color: black;
 }
 
 .prison ul {
     list-style: none;
+    padding-inline-start: 0;
 }
