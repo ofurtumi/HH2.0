@@ -30,6 +30,10 @@ const Hannesarholt = ({ data }: { data: any }) => {
     }
   });
 
+  // let grundarstigur = {
+  //   "variation": "myndMedTextaOgLink"
+  // }
+
   return (
     <main className={styles.prison}>
       <ul className={styles.easeOfMenu}>
@@ -48,6 +52,7 @@ const Hannesarholt = ({ data }: { data: any }) => {
       <ul>
         {hannes.map((page: any, i: number) => {
           if (page.data.slices1[0]) {
+            // console.log('page.data.slices1[0] --> ', page.data.slices1[0])
             return <Mynd slice={page.data.slices1[0]} key={i} />;
           } else {
             return (
@@ -62,19 +67,17 @@ const Hannesarholt = ({ data }: { data: any }) => {
       </ul>
       <h1 id="saga">Saga</h1>
       <ul>
-        <li>
-          <Link href="/hannesarholt/_100ar/index.html">
-            100 ára saga Þingholtana
-          </Link>
-        </li>
         {saga.map((page: any, i: number) => {
-          return (
+          if (page.data.slices1[0]) {
+            // console.log('page.data.slices1[0] --> ', page.data.slices1[0])
+            return <Mynd slice={page.data.slices1[0]} key={i} />;
+          } else {return (
             <li key={i}>
               <a href={"/hannesarholt/" + page.uid}>
                 {page.data.slices[0].primary.title[0].text}
               </a>
             </li>
-          );
+          );}
         })}
       </ul>
       <h1 id="starfsemi">Starfsemi</h1>
@@ -94,7 +97,7 @@ const Hannesarholt = ({ data }: { data: any }) => {
         {annad.map((page: any, i: number) => {
           return (
             <li key={i}>
-              <a href={"/hannesarholt/" + page.uid}>
+             <a href={"/hannesarholt/" + page.uid}>
                 {page.data.slices[0].primary.title[0].text}
               </a>
             </li>
@@ -109,7 +112,7 @@ export async function getStaticProps() {
   const client = createClient(); // sama functionality og í öllum hinum
   const data = await client.getAllByTag("Hannesarholt");
 
-  console.log("data --> ", data);
+  // console.log("data --> ", data);
 
   return { props: { data } };
 }
