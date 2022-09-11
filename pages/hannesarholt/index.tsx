@@ -83,6 +83,9 @@ const Hannesarholt = ({ data }: { data: any }) => {
       <h1 id="starfsemi">Starfsemi</h1>
       <ul>
         {starfsemi.map((page: any, i: number) => {
+          if (page.data.slices1[0]) {
+            return <Mynd slice={page.data.slices1[0]} key={i} />;
+          } else {
           return (
             <li key={i}>
               <a href={"/hannesarholt/" + page.uid}>
@@ -90,19 +93,21 @@ const Hannesarholt = ({ data }: { data: any }) => {
               </a>
             </li>
           );
-        })}
+        }})}
       </ul>
       {annad.length > 0 ? <h1>Hannesarholt</h1> : null}
       <ul>
         {annad.map((page: any, i: number) => {
-          return (
+          if (page.data.slices1[0]) {
+            return <Mynd slice={page.data.slices1[0]} key={i} />;
+          } else {return (
             <li key={i}>
              <a href={"/hannesarholt/" + page.uid}>
                 {page.data.slices[0].primary.title[0].text}
               </a>
             </li>
           );
-        })}
+        }})}
       </ul>
     </main>
   );
