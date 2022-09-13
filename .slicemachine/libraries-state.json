@@ -61,7 +61,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\Embedded\\default\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Embedded\\default\\preview.png",
             "width": 800,
             "height": 126
           }
@@ -570,7 +570,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\MargarMyndir\\default\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\MargarMyndir\\default\\preview.png",
             "width": 800,
             "height": 436
           }
@@ -771,17 +771,17 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\Mynd\\default\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\default\\preview.png",
             "width": 800,
             "height": 459
           },
           "myndMedTexta": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTexta\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTexta\\preview.png",
             "width": 800,
             "height": 285
           },
           "myndMedTextaOgLink": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTextaOgLink\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Mynd\\myndMedTextaOgLink\\preview.png",
             "width": 800,
             "height": 285
           }
@@ -972,7 +972,7 @@
         },
         "screenshotPaths": {
           "default": {
-            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\HH2.0\\.slicemachine\\assets\\slices\\Titill\\default\\preview.png",
+            "path": "C:\\Users\\Tæknistjóri\\Documents\\GitHub\\hh2.0\\.slicemachine\\assets\\slices\\Titill\\default\\preview.png",
             "width": 800,
             "height": 72
           }

@@ -51,7 +51,7 @@ const Home = ({ slices, events }: { slices: any; events: any }) => {
     <main>
       {/* // ! þetta sliceZone má setja inn aftur ef það á að taka út heimasíðu formið */}
       {/* <SliceZone slices={slices} components={components} /> */}
-      <Texti slice={slices[0]} />
+      {/* <Texti slice={slices[0]} /> */}
       <section className={styles.garden}>
         <img src={slices[1].primary.image.url} alt={slices[1].primary.image.alt} />
         <form onSubmit={handleSubmit} className={styles.formPrison}>
