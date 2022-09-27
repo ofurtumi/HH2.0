@@ -8,7 +8,7 @@ import eventStyles from "../styles/Events.module.css";
 import { predicate } from "@prismicio/client";
 import { FormEvent, useState } from "react";
 
-const Home = ({ slices, events }: { slices: any; events: any }) => {
+const Home = ({ slices, events, news }: { slices: any; events: any, news: any }) => {
   const [name, setName] = useState("");
   const [message, setMessage] = useState(""); 
   const [formLabel, setFormLabel] = useState("Finnst þér mikilvægt að Hannesarholt lifi áfram?");
@@ -85,6 +85,28 @@ const Home = ({ slices, events }: { slices: any; events: any }) => {
         </form>
       </section>
       <section style={{ padding: "0 1em" }}>
+        <h2>Nýjustu fréttir frá Hannesarholti</h2>
+      </section>
+      <section style={{ padding: "1em" }} className={eventStyles.prison}>
+        {news.length < 1 ? <p>Engir nýjir viðburðir eru á dagskrá</p> : null}
+        {news.reverse().map((e: any, i: number) => {
+          if (i > 3) return;
+          return (
+            <Link href={`frettir/${e.uid}`} passHref key={i}>
+              <div className={eventStyles.cell}>
+                <img src={e.data.image.cover.url} alt={e.data.image.alt} />
+                <div className={eventStyles.cot}>
+                  <PrismicRichText field={e.data.title} />
+                  {/* <p>{`${m}/${d}/${y} kl. ${tH < 10 ? "0" + tH : tH}:${
+                    tM < 10 ? "0" + tM : tM
+                  }`}</p> */}
+                </div>
+              </div>
+            </Link>
+          );
+        })}
+      </section>
+      <section style={{ padding: "0 1em" }}>
         <h2>Næstu viðburðir í Hannesarholti</h2>
       </section>
       <section style={{ padding: "1em" }} className={eventStyles.prison}>
@@ -125,6 +147,7 @@ const Home = ({ slices, events }: { slices: any; events: any }) => {
           );
         })}
       </section>
+
     </main>
   );
 };
@@ -139,7 +162,12 @@ export async function getServerSideProps() {
     orderings: "my.event.dates.date",
   });
 
-  return { props: { slices: pageData.results[0].data.slices, events } };
+  const news = await client.getAllByType("news", {
+    pageSize: 4,
+    // predicates: [predicate.dateAfter("my.news.dates.date", today)],
+    orderings: "my.news.date",
+  });
+  return { props: { slices: pageData.results[0].data.slices, events, news } };
 }
 
 export default Home;
