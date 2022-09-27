@@ -111,7 +111,7 @@ const Home = ({ slices, events }: { slices: any; events: any }) => {
           const tH = dateObj.getHours();
           const tM = dateObj.getMinutes();
           return (
-            <Link href={`vidburdir/${e.uid}`} passHref key={i}>
+            <Link href={`vidburdir/einstakir/${e.uid}`} passHref key={i}>
               <div className={eventStyles.cell}>
                 <img src={e.data.image.cover.url} alt={e.data.image.alt} />
                 <div className={eventStyles.cot}>
