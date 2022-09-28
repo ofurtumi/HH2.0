@@ -50,9 +50,9 @@ const Home = ({ slices, events, news }: { slices: any; events: any, news: any })
   return (
     <main>
       {/* // ! þetta sliceZone má setja inn aftur ef það á að taka út heimasíðu formið */}
-      {/* <SliceZone slices={slices} components={components} /> */}
+      <SliceZone slices={slices} components={components} />
       {/* <Texti slice={slices[0]} /> */}
-      <section className={styles.garden}>
+      {/* <section className={styles.garden}>
         <img src={slices[1].primary.image.url} alt={slices[1].primary.image.alt} />
         <form onSubmit={handleSubmit} className={styles.formPrison}>
           <h3>{formLabel}</h3>
@@ -83,7 +83,7 @@ const Home = ({ slices, events, news }: { slices: any; events: any, news: any })
           </div>
           <button disabled={sent} type="submit">Senda svar</button>
         </form>
-      </section>
+      </section> */}
       <section style={{ padding: "0 1em" }}>
         <h2>Nýjustu fréttir frá Hannesarholti</h2>
       </section>
