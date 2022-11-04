@@ -10,7 +10,7 @@ const Salur = ({ data }: { data: any }) => {
     )
 };
 
-export async function getStaticProps({
+export async function getServersideProps({
 	params,
 	previewData,
 }: {

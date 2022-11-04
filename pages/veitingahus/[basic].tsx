@@ -25,7 +25,7 @@ const Basic = ({ data, others }: { data: any; others: any }) => {
   );
 };
 
-export async function getStaticProps({
+export async function getServersideProps({
   params,
   previewData,
 }: {
