@@ -24,7 +24,7 @@ const Veitingahus = ({ data, others }: { data: any; others: any }) => {
   );
 };
 
-export async function getServersideProps() {
+export async function getServerSideProps() {
   const client = createClient();
   const data = await client.getByUID("basic", "veitingahus");
   const others = await client.getAllByTag("veitingahus", {

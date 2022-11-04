@@ -86,7 +86,7 @@ const Elstu = ({ events }: { events: Array<Vidburdur> }) => {
 //   return { props: { events: events, num: numEvents.total_pages } };
 // }
 
-export async function getServeresideProps() {
+export async function getStaticProps() {
   // const old = await fetch("http://localhost:3000/elstu_vidburdir.json");
   const filePath = path.join(process.cwd(), 'public/elstu_vidburdir.json')
   const old = await fs.readFile(filePath)

@@ -10,7 +10,7 @@ const Hannesarholt = ({ data }: { data: any }) => {
     )
 };
 
-export async function getServersideProps({
+export async function getServerSideProps({
 	params,
 	previewData,
 }: {
@@ -24,18 +24,18 @@ export async function getServersideProps({
 }
 
 // * fallback fyrir dýnamískar síður
-export async function getStaticPaths () {
-    const client = createClient();
-    const data = await client.getAllByTag('Hannesarholt',);
+// export async function getStaticPaths () {
+//     const client = createClient();
+//     const data = await client.getAllByTag('Hannesarholt',);
 
-    const paths = data.map((item) => ({
-        params: { hannesarholt: item.uid },
-      }))
+//     const paths = data.map((item) => ({
+//         params: { hannesarholt: item.uid },
+//       }))
 
-	return {
-		paths, // ! telur hvaða síður þarf að búa til á build time
-		fallback: false, // ! false segir að það eigi að gera 404 ef síðan finnst ekki
-	};
-};
+// 	return {
+// 		paths, // ! telur hvaða síður þarf að búa til á build time
+// 		fallback: false, // ! false segir að það eigi að gera 404 ef síðan finnst ekki
+// 	};
+// };
 
 export default Hannesarholt;
