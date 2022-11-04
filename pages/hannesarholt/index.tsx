@@ -113,7 +113,7 @@ const Hannesarholt = ({ data }: { data: any }) => {
   );
 };
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const client = createClient(); // sama functionality og í öllum hinum
   const data = await client.getAllByTag("Hannesarholt");
 

@@ -36,7 +36,7 @@ const Salir = ({ data }: { data: any }) => {
   );
 };
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const client = createClient();
   const data = await client.getAllByTag("salir", {
     orderings: {

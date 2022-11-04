@@ -10,7 +10,7 @@ const Salur = ({ data }: { data: any }) => {
     )
 };
 
-export async function getServerSideProps({
+export async function getStaticProps({
 	params,
 	previewData,
 }: {
@@ -24,18 +24,18 @@ export async function getServerSideProps({
 }
 
 // * fallback fyrir dýnamískar síður
-// export async function getStaticPaths () {
-//     const client = createClient();
-//     const data = await client.getAllByTag('salir',);
+export async function getStaticPaths () {
+    const client = createClient();
+    const data = await client.getAllByTag('salir',);
 
-//     const paths = data.map((item) => ({
-//         params: { basic: item.uid },
-//       }))
+    const paths = data.map((item) => ({
+        params: { basic: item.uid },
+      }))
 
-// 	return {
-// 		paths, // ! telur hvaða síður þarf að búa til á build time
-// 		fallback: "blocking", // ! false segir að það eigi að gera 404 ef síðan finnst ekki
-// 	};
-// };
+	return {
+		paths, // ! telur hvaða síður þarf að búa til á build time
+		fallback: "blocking", // ! false segir að það eigi að gera 404 ef síðan finnst ekki
+	};
+};
 
 export default Salur;

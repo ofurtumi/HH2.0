@@ -16,7 +16,7 @@ const Heimili = ({ data }: { data: any }) => {
   );
 };
 
-export async function getServerSideProps() {
+export async function getStaticProps() {
   const client = createClient();
   const data = await client.getByUID("basic", "heimsmarkmid-index");
 
